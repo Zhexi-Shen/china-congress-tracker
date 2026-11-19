@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-11-19T13:21:57Z",
+  "congress": 119,
+  "lookback_hours": 72,
+  "counts": {
+    "bills": 7,
+    "meetings": 6,
+    "members": 20
+  }
+}
