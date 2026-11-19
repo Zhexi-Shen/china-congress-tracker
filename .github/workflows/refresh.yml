@@ -30,7 +30,7 @@ jobs:
       - name: Install R packages
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages: httr2, jsonlite, reactable, htmltools
+          packages: any::httr2, any::jsonlite, any::reactable, any::htmltools
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
