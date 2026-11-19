@@ -14,20 +14,6 @@
     "url": "https://www.congress.gov/bill/117th-congress/senate-bill/5253"
   },
   {
-    "id": "119-hr-6723",
-    "congress": "119",
-    "bill": "HR",
-    "number": "6723",
-    "title": "Bring Our Heroes Home Act",
-    "policy_area": "Government Operations and Politics",
-    "is_econ_trade": false,
-    "latest_action_date": "2025-12-15",
-    "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-    "update_date": "2026-11-17",
-    "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6723"
-  },
-  {
     "id": "119-hr-8730",
     "congress": "119",
     "bill": "HR",
@@ -54,6 +40,34 @@
     "update_date": "2026-11-18",
     "sponsors": [],
     "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5728"
+  },
+  {
+    "id": "119-hr-6723",
+    "congress": "119",
+    "bill": "HR",
+    "number": "6723",
+    "title": "Bring Our Heroes Home Act",
+    "policy_area": "Government Operations and Politics",
+    "is_econ_trade": false,
+    "latest_action_date": "2025-12-15",
+    "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+    "update_date": "2026-11-17",
+    "sponsors": [],
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6723"
+  },
+  {
+    "id": "119-hr-9624",
+    "congress": "119",
+    "bill": "HR",
+    "number": "9624",
+    "title": "Intelligence Authorization Act for Fiscal Year 2027",
+    "policy_area": "Armed Forces and National Security",
+    "is_econ_trade": true,
+    "latest_action_date": "2026-11-18",
+    "latest_action": "Placed on the Union Calendar, Calendar No. 781.",
+    "update_date": "2026-11-19",
+    "sponsors": [],
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9624"
   },
   {
     "id": "119-hr-2659",
