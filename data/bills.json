@@ -1,5 +1,19 @@
 [
   {
+    "id": "119-hr-6723",
+    "congress": "119",
+    "bill": "HR",
+    "number": "6723",
+    "title": "Bring Our Heroes Home Act",
+    "policy_area": "Government Operations and Politics",
+    "is_econ_trade": false,
+    "latest_action_date": "2025-12-15",
+    "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+    "update_date": "2026-11-17",
+    "sponsors": [],
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6723"
+  },
+  {
     "id": "117-s-5253",
     "congress": "117",
     "bill": "S",
@@ -42,20 +56,6 @@
     "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5728"
   },
   {
-    "id": "119-hr-6723",
-    "congress": "119",
-    "bill": "HR",
-    "number": "6723",
-    "title": "Bring Our Heroes Home Act",
-    "policy_area": "Government Operations and Politics",
-    "is_econ_trade": false,
-    "latest_action_date": "2025-12-15",
-    "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-    "update_date": "2026-11-17",
-    "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6723"
-  },
-  {
     "id": "119-hr-9624",
     "congress": "119",
     "bill": "HR",
@@ -68,6 +68,20 @@
     "update_date": "2026-11-19",
     "sponsors": [],
     "url": "https://www.congress.gov/bill/119th-congress/house-bill/9624"
+  },
+  {
+    "id": "119-hr-5490",
+    "congress": "119",
+    "bill": "HR",
+    "number": "5490",
+    "title": "Dismantle Foreign Scam Syndicates Act",
+    "policy_area": "International Affairs",
+    "is_econ_trade": true,
+    "latest_action_date": "2026-11-18",
+    "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+    "update_date": "2026-11-19",
+    "sponsors": [],
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
   },
   {
     "id": "119-hr-2659",
@@ -98,17 +112,17 @@
     "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3226"
   },
   {
-    "id": "119-hr-4706",
+    "id": "119-s-3301",
     "congress": "119",
-    "bill": "HR",
-    "number": "4706",
-    "title": "Protecting Our Farms and Homes from China Act",
-    "policy_area": "Agriculture and Food",
-    "is_econ_trade": false,
-    "latest_action_date": "2025-07-23",
-    "latest_action": "Referred to the Committee on Agriculture, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-    "update_date": "2026-11-17",
+    "bill": "S",
+    "number": "3301",
+    "title": "Chip EQUIP Act",
+    "policy_area": "Foreign Trade and International Finance",
+    "is_econ_trade": true,
+    "latest_action_date": "2026-11-18",
+    "latest_action": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+    "update_date": "2026-11-19",
     "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4706"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3301"
   }
 ]

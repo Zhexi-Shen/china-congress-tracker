@@ -172,6 +172,15 @@
       },
       {
         "role": "Cosponsor",
+        "id": "119-hr-5490",
+        "title": "Dismantle Foreign Scam Syndicates Act",
+        "introduced": "2025-09-18",
+        "latest_action_date": "2026-11-18",
+        "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
+      },
+      {
+        "role": "Cosponsor",
         "id": "119-hres-689",
         "title": "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific.",
         "introduced": "2025-09-10",
@@ -315,7 +324,7 @@
         "url": "https://www.congress.gov/bill/119th-congress/house-resolution/148"
       }
     ],
-    "n_legislation": 34
+    "n_legislation": 35
   },
   {
     "bioguideId": "B001282",
@@ -619,9 +628,18 @@
         "latest_action_date": "2026-05-26",
         "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1324"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-5490",
+        "title": "Dismantle Foreign Scam Syndicates Act",
+        "introduced": "2026-02-25",
+        "latest_action_date": "2026-11-18",
+        "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
       }
     ],
-    "n_legislation": 8
+    "n_legislation": 9
   },
   {
     "bioguideId": "M001137",
