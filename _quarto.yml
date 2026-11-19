@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "China-US Congress Tracker"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    page-layout: full
+    fig-cap-location: bottom

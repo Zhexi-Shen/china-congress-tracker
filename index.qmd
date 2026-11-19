@@ -1,0 +1,181 @@
+---
+title: "China-US Congress Tracker"
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+Tracks recent U.S. congressional activity related to China, with an emphasis on
+economy and trade: bills with new movement, committee hearings and meetings, and
+activity by high-influence members. Every entry links to its official
+[congress.gov](https://www.congress.gov) page. Data is refreshed hourly from the
+[Congress.gov API](https://api.congress.gov).
+
+```{r}
+#| label: setup
+suppressMessages({
+  library(jsonlite)
+  library(reactable)
+  library(htmltools)
+})
+
+`%||%` <- function(a, b) if (is.null(a) || length(a) == 0L) b else a
+
+safe <- function(x, fallback = "") {
+  if (is.null(x) || length(x) == 0L || is.na(x[1])) fallback else as.character(x[1])
+}
+
+read_json <- function(path) {
+  if (!file.exists(path)) return(NULL)
+  fromJSON(path, simplifyVector = FALSE)
+}
+
+chr_vec <- function(x) {
+  if (is.null(x)) return(character(0))
+  if (is.list(x)) {
+    return(vapply(x, function(y) if (is.null(y) || length(y) == 0L) "" else as.character(y[1]), character(1)))
+  }
+  as.character(x)
+}
+
+esc <- htmlEscape
+
+link_html <- function(url, text) {
+  if (is.null(url) || is.na(url) || !nzchar(url)) return(esc(text))
+  sprintf('<a href="%s" target="_blank" rel="noopener">%s</a>', esc(url), esc(text))
+}
+
+bills <- read_json("data/bills.json")
+meetings <- read_json("data/meetings.json")
+members <- read_json("data/members.json")
+meta <- read_json("data/meta.json")
+
+count <- function(x) if (is.null(x)) 0L else length(x)
+```
+
+**Last updated:** `r safe(meta$generated_at)` |
+**Congress:** `r safe(meta$congress)` |
+**Lookback window:** `r safe(meta$lookback_hours)` hours
+
+## Bills (`r count(bills)`)
+
+```{r}
+#| label: tbl-bills
+bill_df <- data.frame(
+  Bill = vapply(bills %||% list(), function(b) paste0(safe(b$bill), " ", safe(b$number)), character(1)),
+  Title = vapply(bills %||% list(), function(b) safe(b$title), character(1)),
+  Action = vapply(bills %||% list(), function(b) safe(b$latest_action), character(1)),
+  Date = vapply(bills %||% list(), function(b) safe(b$latest_action_date), character(1)),
+  Focus = vapply(bills %||% list(), function(b) if (isTRUE(b$is_econ_trade)) "Trade/Economy" else "", character(1)),
+  Sponsors = vapply(bills %||% list(), function(b) {
+    paste(chr_vec(lapply(b$sponsors, function(s) s$fullName)), collapse = "; ")
+  }, character(1)),
+  url = vapply(bills %||% list(), function(b) safe(b$url), character(1)),
+  stringsAsFactors = FALSE
+)
+
+if (nrow(bill_df) > 0) {
+  reactable(
+    bill_df,
+    columns = list(
+      Bill = colDef(width = 110),
+      Title = colDef(html = TRUE, minWidth = 320, cell = function(value, index) link_html(bill_df$url[index], value)),
+      Action = colDef(minWidth = 260),
+      Date = colDef(width = 110),
+      Focus = colDef(width = 120),
+      Sponsors = colDef(minWidth = 200),
+      url = colDef(show = FALSE)
+    ),
+    searchable = TRUE,
+    striped = TRUE,
+    defaultPageSize = 25,
+    highlight = TRUE
+  )
+}
+```
+
+## Committee hearings & meetings (`r count(meetings)`)
+
+```{r}
+#| label: tbl-meetings
+meet_df <- data.frame(
+  Date = vapply(meetings %||% list(), function(m) substr(safe(m$date), 1, 10), character(1)),
+  Committee = vapply(meetings %||% list(), function(m) paste(chr_vec(m$committees), collapse = "; "), character(1)),
+  Type = vapply(meetings %||% list(), function(m) safe(m$type), character(1)),
+  Status = vapply(meetings %||% list(), function(m) safe(m$status), character(1)),
+  Title = vapply(meetings %||% list(), function(m) safe(m$title), character(1)),
+  url = vapply(meetings %||% list(), function(m) safe(m$url), character(1)),
+  stringsAsFactors = FALSE
+)
+
+if (nrow(meet_df) > 0) {
+  reactable(
+    meet_df,
+    columns = list(
+      Date = colDef(width = 110),
+      Committee = colDef(minWidth = 200),
+      Type = colDef(width = 130),
+      Status = colDef(width = 110),
+      Title = colDef(html = TRUE, minWidth = 340, cell = function(value, index) link_html(meet_df$url[index], value)),
+      url = colDef(show = FALSE)
+    ),
+    searchable = TRUE,
+    striped = TRUE,
+    defaultPageSize = 25,
+    highlight = TRUE
+  )
+}
+```
+
+## Members (`r count(members)`)
+
+```{r}
+#| label: tbl-members
+member_activity_html <- function(m) {
+  leg <- m$legislation
+  if (is.null(leg) || length(leg) == 0L) return("<em>No recent China-related bills</em>")
+  items <- vapply(leg, function(l) {
+    date <- safe(l$latest_action_date)
+    suffix <- if (nzchar(date)) paste0(" | ", date) else ""
+    sprintf(
+      "<li>%s <small>(%s%s)</small></li>",
+      link_html(l$url, safe(l$title)), safe(l$role), suffix
+    )
+  }, character(1))
+  paste0("<ul>", paste(items, collapse = ""), "</ul>")
+}
+
+member_df <- data.frame(
+  Member = vapply(members %||% list(), function(m) safe(m$name), character(1)),
+  State = vapply(members %||% list(), function(m) paste(safe(m$partyName), safe(m$state), sep = " / "), character(1)),
+  Role = vapply(members %||% list(), function(m) safe(m$note), character(1)),
+  Activity = vapply(members %||% list(), member_activity_html, character(1)),
+  Count = vapply(members %||% list(), function(m) length(m$legislation), integer(1)),
+  stringsAsFactors = FALSE
+)
+
+if (nrow(member_df) > 0) {
+  reactable(
+    member_df,
+    columns = list(
+      Member = colDef(minWidth = 160),
+      State = colDef(width = 150, name = "Party / State"),
+      Role = colDef(minWidth = 220),
+      Activity = colDef(html = TRUE, minWidth = 420, name = "Recent China-related activity"),
+      Count = colDef(width = 80)
+    ),
+    searchable = TRUE,
+    striped = TRUE,
+    defaultPageSize = 50,
+    highlight = TRUE
+  )
+}
+```
+
+## Notes
+
+- **Source:** the official [Congress.gov API](https://api.congress.gov). Every row links to its official congress.gov page.
+- **Relevance** is determined by legislative subject tags, policy areas, and keyword lists in [`R/fetch.R`](R/fetch.R) - tune the lists there to widen or narrow coverage.
+- **Members** combine a curated watchlist ([`config/members.csv`](config/members.csv)) with members auto-added because they sponsor recent China-related bills.
+- "Sponsor/Cosponsor" member activity uses title-keyword matching (plus cross-reference to subject-verified bills), so a bill whose China relevance lives only in its subject tags may occasionally be missed in that section.
