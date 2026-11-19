@@ -199,6 +199,10 @@ fetch_china_bills <- function(from_dt, to_dt) {
     item_key = "bills", max_pages = 8L
   )
   message("  ", length(raw), " bills updated in window")
+  # Offset pagination can drift on a live-updating feed; drop duplicate bills
+  raw <- raw[!duplicated(vapply(raw, function(b) {
+    bill_id(ch(b$congress), ch(b$type), ch(b$number))
+  }, character(1)))]
   n <- min(length(raw), max_detail_calls)
   out <- list()
   for (i in seq_len(n)) {
@@ -251,9 +255,10 @@ fetch_meetings <- function(from_dt, to_dt) {
     m <- raw[[i]]
     det <- api_get(sprintf(
       "/committee-meeting/%s/%s/%s",
-      ch(m$congress), tolower(ch(m$chamber)), ch(m$eventid)
+      ch(m$congress), tolower(ch(m$chamber)), ch(m$eventId)
     ))
     if (is.null(det)) next
+    det <- det$committeeMeeting %||% det
     title <- ch(det$title)
     committees <- vapply(det$committees %||% list(), function(c) ch(c$name), character(1))
     is_china <- match_any(title, china_terms) ||
@@ -264,11 +269,11 @@ fetch_meetings <- function(from_dt, to_dt) {
     if (is.na(event_url) || !nzchar(event_url)) {
       event_url <- sprintf(
         "https://www.congress.gov/event/%sth-congress/%s-event/%s",
-        ch(det$congress), tolower(ch(det$chamber)), ch(det$eventid)
+        ch(det$congress), tolower(ch(det$chamber)), ch(det$eventId)
       )
     }
     out[[length(out) + 1L]] <- list(
-      id = ch(det$eventid),
+      id = ch(det$eventId),
       congress = ch(det$congress),
       chamber = ch(det$chamber),
       date = ch(det$date),
