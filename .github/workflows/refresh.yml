@@ -28,7 +28,9 @@ jobs:
           r-version: 'release'
 
       - name: Install R packages
-        run: Rscript -e 'install.packages(c("httr2", "jsonlite", "reactable", "htmltools"), repos = "https://cloud.r-project.org")'
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: httr2, jsonlite, reactable, htmltools
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
