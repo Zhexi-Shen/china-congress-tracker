@@ -175,8 +175,8 @@
         "id": "119-hr-5490",
         "title": "Dismantle Foreign Scam Syndicates Act",
         "introduced": "2025-09-18",
-        "latest_action_date": "2026-11-18",
-        "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+        "latest_action_date": "2026-11-19",
+        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
       },
       {
@@ -241,15 +241,6 @@
         "latest_action_date": "2025-05-15",
         "latest_action": "Referred to the House Committee on Foreign Affairs.",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/3461"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-2659",
-        "title": "Strengthening Cyber Resilience Against State-Sponsored Threats Act",
-        "introduced": "2025-04-07",
-        "latest_action_date": "2025-11-18",
-        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2659"
       },
       {
         "role": "Cosponsor",
@@ -324,7 +315,7 @@
         "url": "https://www.congress.gov/bill/119th-congress/house-resolution/148"
       }
     ],
-    "n_legislation": 35
+    "n_legislation": 34
   },
   {
     "bioguideId": "B001282",
@@ -634,8 +625,8 @@
         "id": "119-hr-5490",
         "title": "Dismantle Foreign Scam Syndicates Act",
         "introduced": "2026-02-25",
-        "latest_action_date": "2026-11-18",
-        "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+        "latest_action_date": "2026-11-19",
+        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
       }
     ],
@@ -885,72 +876,6 @@
     "n_legislation": 7
   },
   {
-    "bioguideId": "R000584",
-    "name": "Risch, James E.",
-    "state": "Idaho",
-    "partyName": "Republican",
-    "chamber": "Senate",
-    "note": "Senate Foreign Relations",
-    "watchlist": true,
-    "legislation": [
-      {
-        "role": "Sponsor",
-        "id": "119-s-2960",
-        "title": "Deter PRC Aggression Against Taiwan Act",
-        "introduced": "2025-10-01",
-        "latest_action_date": "2025-10-30",
-        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 245.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2960"
-      },
-      {
-        "role": "Sponsor",
-        "id": "119-sres-98",
-        "title": "A resolution condemning Beijing's destruction of Hong Kong's democracy and rule of law.",
-        "introduced": "2025-02-26",
-        "latest_action_date": "2025-04-28",
-        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 57.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/98"
-      },
-      {
-        "role": "Sponsor",
-        "id": "119-sres-86",
-        "title": "A resolution expressing the sense of the Senate regarding United Nations General Assembly Resolution 2758 (XXVI) and the harmful conflation of China's \"One China Principle\" and the United States'\"One China Policy\".",
-        "introduced": "2025-02-20",
-        "latest_action_date": "2025-04-28",
-        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 56.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/86"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-s-5362",
-        "title": "Assuring the Future of Tibet Act of 2026",
-        "introduced": "2026-08-07",
-        "latest_action_date": "2026-08-07",
-        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5362"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-s-3226",
-        "title": "Bring Our Heroes Home Act",
-        "introduced": "2025-11-19",
-        "latest_action_date": "2026-11-09",
-        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 693.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3226"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-sres-409",
-        "title": "A resolution recognizing the 74th anniversary of the signing of the Mutual Defense Treaty between the United States and the Philippines and the strong bilateral security alliance between our two nations in the wake of escalating aggression and political lawfare by the People's Republic of China in the South China Sea.",
-        "introduced": "2025-10-08",
-        "latest_action_date": "2025-10-30",
-        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 248.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/409"
-      }
-    ],
-    "n_legislation": 6
-  },
-  {
     "bioguideId": "H001072",
     "name": "Hill, J. French",
     "state": "Arkansas",
@@ -1003,6 +928,63 @@
         "latest_action_date": "2025-09-18",
         "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/5491"
+      }
+    ],
+    "n_legislation": 5
+  },
+  {
+    "bioguideId": "R000584",
+    "name": "Risch, James E.",
+    "state": "Idaho",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Senate Foreign Relations",
+    "watchlist": true,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-2960",
+        "title": "Deter PRC Aggression Against Taiwan Act",
+        "introduced": "2025-10-01",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 245.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2960"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-sres-98",
+        "title": "A resolution condemning Beijing's destruction of Hong Kong's democracy and rule of law.",
+        "introduced": "2025-02-26",
+        "latest_action_date": "2025-04-28",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 57.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/98"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-sres-86",
+        "title": "A resolution expressing the sense of the Senate regarding United Nations General Assembly Resolution 2758 (XXVI) and the harmful conflation of China's \"One China Principle\" and the United States'\"One China Policy\".",
+        "introduced": "2025-02-20",
+        "latest_action_date": "2025-04-28",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 56.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/86"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-5362",
+        "title": "Assuring the Future of Tibet Act of 2026",
+        "introduced": "2026-08-07",
+        "latest_action_date": "2026-08-07",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5362"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-409",
+        "title": "A resolution recognizing the 74th anniversary of the signing of the Mutual Defense Treaty between the United States and the Philippines and the strong bilateral security alliance between our two nations in the wake of escalating aggression and political lawfare by the People's Republic of China in the South China Sea.",
+        "introduced": "2025-10-08",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 248.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/409"
       }
     ],
     "n_legislation": 5
@@ -1122,54 +1104,6 @@
     "n_legislation": 5
   },
   {
-    "bioguideId": "C000880",
-    "name": "Crapo, Mike",
-    "state": "Idaho",
-    "partyName": "Republican",
-    "chamber": "Senate",
-    "note": "Chair - Finance",
-    "watchlist": true,
-    "legislation": [
-      {
-        "role": "Sponsor",
-        "id": "119-s-3226",
-        "title": "Bring Our Heroes Home Act",
-        "introduced": "2025-11-19",
-        "latest_action_date": "2026-11-09",
-        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 693.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3226"
-      },
-      {
-        "role": "Sponsor",
-        "id": "119-s-199",
-        "title": "A bill to amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
-        "introduced": "2025-01-23",
-        "latest_action_date": "2025-01-23",
-        "latest_action": "Read twice and referred to the Committee on Finance.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/199"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-s-5362",
-        "title": "Assuring the Future of Tibet Act of 2026",
-        "introduced": "2026-09-15",
-        "latest_action_date": "2026-08-07",
-        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5362"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-sres-283",
-        "title": "A resolution commemorating the 90th birthday of His Holiness the 14th Dalai Lama on July 6, 2025, as \"A Day of Compassion\" and expressing support for the human rights and distinct religious, cultural, linguistic, and historical identity of the Tibetan people.",
-        "introduced": "2025-06-17",
-        "latest_action_date": "2025-07-14",
-        "latest_action": "Resolution agreed to in Senate with an amendment and with a preamble by Unanimous Consent. (text: CR S4342-4343)",
-        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/283"
-      }
-    ],
-    "n_legislation": 4
-  },
-  {
     "bioguideId": "H000601",
     "name": "Hagerty, Bill",
     "state": "Tennessee",
@@ -1216,6 +1150,45 @@
       }
     ],
     "n_legislation": 4
+  },
+  {
+    "bioguideId": "C000880",
+    "name": "Crapo, Mike",
+    "state": "Idaho",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Chair - Finance",
+    "watchlist": true,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-199",
+        "title": "A bill to amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
+        "introduced": "2025-01-23",
+        "latest_action_date": "2025-01-23",
+        "latest_action": "Read twice and referred to the Committee on Finance.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/199"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-5362",
+        "title": "Assuring the Future of Tibet Act of 2026",
+        "introduced": "2026-09-15",
+        "latest_action_date": "2026-08-07",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5362"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-283",
+        "title": "A resolution commemorating the 90th birthday of His Holiness the 14th Dalai Lama on July 6, 2025, as \"A Day of Compassion\" and expressing support for the human rights and distinct religious, cultural, linguistic, and historical identity of the Tibetan people.",
+        "introduced": "2025-06-17",
+        "latest_action_date": "2025-07-14",
+        "latest_action": "Resolution agreed to in Senate with an amendment and with a preamble by Unanimous Consent. (text: CR S4342-4343)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/283"
+      }
+    ],
+    "n_legislation": 3
   },
   {
     "bioguideId": "S001184",
