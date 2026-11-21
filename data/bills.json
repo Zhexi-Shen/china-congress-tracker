@@ -1,19 +1,5 @@
 [
   {
-    "id": "119-s-5728",
-    "congress": "119",
-    "bill": "S",
-    "number": "5728",
-    "title": "Ending China’s Special Treatment Act of 2026",
-    "policy_area": null,
-    "is_econ_trade": false,
-    "latest_action_date": "2026-11-17",
-    "latest_action": "Read twice and referred to the Committee on Finance.",
-    "update_date": "2026-11-21",
-    "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5728"
-  },
-  {
     "id": "119-hr-9624",
     "congress": "119",
     "bill": "HR",
@@ -28,32 +14,18 @@
     "url": "https://www.congress.gov/bill/119th-congress/house-bill/9624"
   },
   {
-    "id": "119-s-580",
+    "id": "119-s-5728",
     "congress": "119",
     "bill": "S",
-    "number": "580",
-    "title": "Combating CCP Labor Abuses Act of 2026",
-    "policy_area": "International Affairs",
-    "is_econ_trade": true,
-    "latest_action_date": "2026-11-20",
-    "latest_action": "Message on Senate action sent to the House.",
+    "number": "5728",
+    "title": "Ending China’s Special Treatment Act of 2026",
+    "policy_area": null,
+    "is_econ_trade": false,
+    "latest_action_date": "2026-11-17",
+    "latest_action": "Read twice and referred to the Committee on Finance.",
     "update_date": "2026-11-21",
     "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/580"
-  },
-  {
-    "id": "119-hr-5490",
-    "congress": "119",
-    "bill": "HR",
-    "number": "5490",
-    "title": "Dismantle Foreign Scam Syndicates Act",
-    "policy_area": "International Affairs",
-    "is_econ_trade": true,
-    "latest_action_date": "2026-11-19",
-    "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
-    "update_date": "2026-11-20",
-    "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5728"
   },
   {
     "id": "119-hr-9687",
@@ -68,6 +40,20 @@
     "update_date": "2026-11-21",
     "sponsors": [],
     "url": "https://www.congress.gov/bill/119th-congress/house-bill/9687"
+  },
+  {
+    "id": "119-s-580",
+    "congress": "119",
+    "bill": "S",
+    "number": "580",
+    "title": "Combating CCP Labor Abuses Act of 2026",
+    "policy_area": "International Affairs",
+    "is_econ_trade": true,
+    "latest_action_date": "2026-11-20",
+    "latest_action": "Message on Senate action sent to the House.",
+    "update_date": "2026-11-21",
+    "sponsors": [],
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/580"
   },
   {
     "id": "119-hr-8730",
