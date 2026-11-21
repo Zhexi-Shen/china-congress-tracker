@@ -1,19 +1,5 @@
 [
   {
-    "id": "119-hr-6723",
-    "congress": "119",
-    "bill": "HR",
-    "number": "6723",
-    "title": "Bring Our Heroes Home Act",
-    "policy_area": "Government Operations and Politics",
-    "is_econ_trade": false,
-    "latest_action_date": "2025-12-15",
-    "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
-    "update_date": "2026-11-17",
-    "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6723"
-  },
-  {
     "id": "119-s-5728",
     "congress": "119",
     "bill": "S",
@@ -56,6 +42,20 @@
     "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
   },
   {
+    "id": "119-hr-9687",
+    "congress": "119",
+    "bill": "HR",
+    "number": "9687",
+    "title": "Blocking CCP Spy Tech Act of 2026",
+    "policy_area": "Armed Forces and National Security",
+    "is_econ_trade": true,
+    "latest_action_date": "2026-07-14",
+    "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+    "update_date": "2026-11-21",
+    "sponsors": [],
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9687"
+  },
+  {
     "id": "119-s-580",
     "congress": "119",
     "bill": "S",
@@ -64,7 +64,7 @@
     "policy_area": "International Affairs",
     "is_econ_trade": true,
     "latest_action_date": "2026-11-19",
-    "latest_action": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent. (text of amendment in the nature of a substitute: CR S5796-5797)",
+    "latest_action": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent.",
     "update_date": "2026-11-20",
     "sponsors": [],
     "url": "https://www.congress.gov/bill/119th-congress/senate-bill/580"
@@ -79,22 +79,8 @@
     "is_econ_trade": true,
     "latest_action_date": "2026-05-11",
     "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-    "update_date": "2026-11-20",
+    "update_date": "2026-11-21",
     "sponsors": [],
     "url": "https://www.congress.gov/bill/119th-congress/house-bill/8730"
-  },
-  {
-    "id": "119-hr-9687",
-    "congress": "119",
-    "bill": "HR",
-    "number": "9687",
-    "title": "Blocking CCP Spy Tech Act of 2026",
-    "policy_area": "Armed Forces and National Security",
-    "is_econ_trade": true,
-    "latest_action_date": "2026-07-14",
-    "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-    "update_date": "2026-11-20",
-    "sponsors": [],
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9687"
   }
 ]
