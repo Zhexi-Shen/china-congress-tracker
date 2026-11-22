@@ -51,7 +51,7 @@ Requires the R packages `httr2`, `jsonlite`, `reactable`, `htmltools`, and a
   automatically (auto-added sponsors always have at least one).
 - **Relevance keywords** — edit the `china_terms`, `econ_trade_terms`, and
   committee term lists at the top of [`R/fetch.R`](R/fetch.R).
-- **Lookback windows** — `LOOKBACK_HOURS` controls the bill window (default 72)
+- **Lookback windows** — `LOOKBACK_HOURS` controls the bill window (default 720)
   and `MEETING_LOOKBACK_HOURS` controls the hearings/meetings window (default 720,
   i.e. 30 days). Set either as a repository variable or an environment variable
   locally.

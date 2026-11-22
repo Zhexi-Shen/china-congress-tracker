@@ -1,9 +1,9 @@
 # china-congress-tracker: fetch China-related congressional activity
 #
 # Pulls from the Congress.gov API (https://api.congress.gov):
-#   1. recently-updated bills (filtered to China relevance),
-#   2. committee meetings / hearings (filtered by title + committee, with a
-#      longer 30-day lookback than bills),
+#   1. recently-updated bills (filtered to China relevance, 30-day window),
+#   2. committee meetings / hearings (filtered by title + committee, 30-day
+#      window),
 #   3. activity for a curated watchlist of members plus members who are
 #      actively sponsoring China-related bills.
 #
@@ -43,13 +43,14 @@ config_dir <- file.path(project_root, "config")
 dir.create(data_dir, showWarnings = FALSE, recursive = TRUE)
 
 base_url <- "https://api.congress.gov/v3"
-lookback_hours <- as.numeric(Sys.getenv("LOOKBACK_HOURS", "72"))
+lookback_hours <- as.numeric(Sys.getenv("LOOKBACK_HOURS", "720"))
 meeting_lookback_hours <- as.numeric(Sys.getenv("MEETING_LOOKBACK_HOURS", "720"))
 max_detail_calls <- as.numeric(Sys.getenv("MAX_DETAIL_CALLS", "500"))
 throttle_sec <- as.numeric(Sys.getenv("THROTTLE_SEC", "0.1"))
 
 now_utc <- function() as.POSIXct(Sys.time(), tz = "UTC")
 fmt_dt <- function(x) format(x, "%Y-%m-%dT%H:%M:%SZ", tz = "UTC")
+parse_date <- function(x) suppressWarnings(as.Date(substr(x, 1, 10)))
 
 # ---------------------------------------------------------------------------
 # Relevance keyword lists (edit to tune what counts as "China" / "economy")
@@ -235,6 +236,15 @@ fetch_china_bills <- function(from_dt, to_dt) {
       url = bill_official_url(ch(b$congress), ch(b$type), ch(b$number))
     )
   }
+
+  # Drop bills whose latest action falls outside the window. The API filters on
+  # update date, which can be newer than the action date shown on the page.
+  cutoff <- as.Date(from_dt)
+  out <- Filter(function(b) {
+    d <- parse_date(b$latest_action_date)
+    !is.na(d) && d >= cutoff
+  }, out)
+
   message("  ", length(out), " China-related bills")
   out
 }
@@ -286,6 +296,15 @@ fetch_meetings <- function(from_dt, to_dt) {
       url = event_url
     )
   }
+
+  # Drop meetings dated outside the window (e.g. records recently updated for an
+  # older event).
+  cutoff <- as.Date(from_dt)
+  out <- Filter(function(m) {
+    d <- parse_date(m$date)
+    !is.na(d) && d >= cutoff
+  }, out)
+
   message("  ", length(out), " China-related meetings/hearings")
   out
 }
