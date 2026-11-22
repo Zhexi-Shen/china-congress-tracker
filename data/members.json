@@ -19,15 +19,6 @@
       },
       {
         "role": "Sponsor",
-        "id": "119-hr-8730",
-        "title": "Connected Vehicle Security Act of 2026",
-        "introduced": "2026-05-11",
-        "latest_action_date": "2026-05-11",
-        "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8730"
-      },
-      {
-        "role": "Sponsor",
         "id": "119-hr-8417",
         "title": "Keeping China Off the Rails Act",
         "introduced": "2026-04-21",
@@ -172,15 +163,6 @@
       },
       {
         "role": "Cosponsor",
-        "id": "119-hr-5490",
-        "title": "Dismantle Foreign Scam Syndicates Act",
-        "introduced": "2025-09-18",
-        "latest_action_date": "2026-11-19",
-        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5490"
-      },
-      {
-        "role": "Cosponsor",
         "id": "119-hres-689",
         "title": "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific.",
         "introduced": "2025-09-10",
@@ -315,118 +297,7 @@
         "url": "https://www.congress.gov/bill/119th-congress/house-resolution/148"
       }
     ],
-    "n_legislation": 34
-  },
-  {
-    "bioguideId": "B001282",
-    "name": "Barr, Andy",
-    "state": "Kentucky",
-    "partyName": "Republican",
-    "chamber": "House",
-    "note": "Financial Services / China-focused",
-    "watchlist": true,
-    "legislation": [
-      {
-        "role": "Sponsor",
-        "id": "119-hr-7485",
-        "title": "Taiwan SOS Act of 2026",
-        "introduced": "2026-02-11",
-        "latest_action_date": "2026-02-11",
-        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7485"
-      },
-      {
-        "role": "Sponsor",
-        "id": "119-hres-861",
-        "title": "Expressing condemnation of the Chinese Communist Party's persecution of religious minority groups, including Christians, Muslims, and Buddhists and the detention of Pastor \"Ezra\" Jin Mingri and leaders of the Zion Church, and reaffirming the United States' global commitment to promote religious freedom and tolerance.",
-        "introduced": "2025-11-07",
-        "latest_action_date": "2025-11-07",
-        "latest_action": "Referred to the House Committee on Foreign Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/861"
-      },
-      {
-        "role": "Sponsor",
-        "id": "119-hr-2246",
-        "title": "Foreign Investment Guardrails to Help Thwart (FIGHT) China Act",
-        "introduced": "2025-03-21",
-        "latest_action_date": "2025-03-21",
-        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2246"
-      },
-      {
-        "role": "Sponsor",
-        "id": "119-hr-747",
-        "title": "Stop Chinese Fentanyl Act of 2025",
-        "introduced": "2025-01-28",
-        "latest_action_date": "2025-09-03",
-        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/747"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-8730",
-        "title": "Connected Vehicle Security Act of 2026",
-        "introduced": "2026-06-23",
-        "latest_action_date": "2026-05-11",
-        "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8730"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hres-930",
-        "title": "Commemorating the 78th birthday of Jimmy Lai on December 8, 2025, as \"Jimmy Lai Day\", for his role in advocating for free press, religious freedom, and democracy in Hong Kong, and calling on the People's Republic of China and Hong Kong authorities to release Jimmy Lai and all other Hong Kong prodemocracy advocates from prison.",
-        "introduced": "2026-02-11",
-        "latest_action_date": "2025-12-04",
-        "latest_action": "Referred to the House Committee on Foreign Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/930"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hres-971",
-        "title": "Condemning the coercive actions of the People's Republic of China against Japan in response to statements regarding Taiwan and reaffirming the United States commitment to its allies in the Indo-Pacific region.",
-        "introduced": "2025-12-19",
-        "latest_action_date": "2026-03-26",
-        "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 45 - 0.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/971"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-2559",
-        "title": "Taiwan Allies Fund Act",
-        "introduced": "2025-04-01",
-        "latest_action_date": "2025-04-01",
-        "latest_action": "Referred to the House Committee on Foreign Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2559"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-2127",
-        "title": "Expel Illegal Chinese Police Act of 2025",
-        "introduced": "2025-03-25",
-        "latest_action_date": "2025-03-14",
-        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2127"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hres-130",
-        "title": "Expressing the sense of the House of Representatives in condemning the Government of the People's Republic of China for its harassment and efforts to intimidate American citizens and other individuals on United States soil with the goal of suppressing speech and narratives the People's Republic of China finds unwelcome.",
-        "introduced": "2025-02-13",
-        "latest_action_date": "2025-02-13",
-        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/130"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-33",
-        "title": "To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
-        "introduced": "2025-01-13",
-        "latest_action_date": "2025-01-16",
-        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/33"
-      }
-    ],
-    "n_legislation": 11
+    "n_legislation": 32
   },
   {
     "bioguideId": "Y000064",
@@ -540,43 +411,70 @@
     "n_legislation": 11
   },
   {
-    "bioguideId": "K000391",
-    "name": "Krishnamoorthi, Raja",
-    "state": "Illinois",
-    "partyName": "Democratic",
+    "bioguideId": "B001282",
+    "name": "Barr, Andy",
+    "state": "Kentucky",
+    "partyName": "Republican",
     "chamber": "House",
-    "note": "Ranking Member - House Select Committee on the CCP",
+    "note": "Financial Services / China-focused",
     "watchlist": true,
     "legislation": [
       {
         "role": "Sponsor",
-        "id": "119-hres-1322",
-        "title": "Condemning racist rhetoric targeting Indian and Chinese Americans, reaffirming that immigrants from all backgrounds are vital to the United States, and calling on all elected officials to refrain from language that promotes racial or ethnic division.",
-        "introduced": "2026-05-22",
-        "latest_action_date": "2026-05-22",
-        "latest_action": "Referred to the House Committee on the Judiciary.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1322"
+        "id": "119-hr-7485",
+        "title": "Taiwan SOS Act of 2026",
+        "introduced": "2026-02-11",
+        "latest_action_date": "2026-02-11",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7485"
       },
       {
         "role": "Sponsor",
-        "id": "119-hr-5022",
-        "title": "No Advanced Chips for the CCP Act of 2025.",
-        "introduced": "2025-08-22",
-        "latest_action_date": "2025-08-22",
+        "id": "119-hres-861",
+        "title": "Expressing condemnation of the Chinese Communist Party's persecution of religious minority groups, including Christians, Muslims, and Buddhists and the detention of Pastor \"Ezra\" Jin Mingri and leaders of the Zion Church, and reaffirming the United States' global commitment to promote religious freedom and tolerance.",
+        "introduced": "2025-11-07",
+        "latest_action_date": "2025-11-07",
         "latest_action": "Referred to the House Committee on Foreign Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5022"
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/861"
       },
       {
         "role": "Sponsor",
-        "id": "119-hr-3452",
-        "title": "Six Assurances to Taiwan Act",
-        "introduced": "2025-05-15",
-        "latest_action_date": "2025-05-15",
-        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3452"
+        "id": "119-hr-2246",
+        "title": "Foreign Investment Guardrails to Help Thwart (FIGHT) China Act",
+        "introduced": "2025-03-21",
+        "latest_action_date": "2025-03-21",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2246"
       },
       {
         "role": "Sponsor",
+        "id": "119-hr-747",
+        "title": "Stop Chinese Fentanyl Act of 2025",
+        "introduced": "2025-01-28",
+        "latest_action_date": "2025-09-03",
+        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/747"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-930",
+        "title": "Commemorating the 78th birthday of Jimmy Lai on December 8, 2025, as \"Jimmy Lai Day\", for his role in advocating for free press, religious freedom, and democracy in Hong Kong, and calling on the People's Republic of China and Hong Kong authorities to release Jimmy Lai and all other Hong Kong prodemocracy advocates from prison.",
+        "introduced": "2026-02-11",
+        "latest_action_date": "2025-12-04",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/930"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-971",
+        "title": "Condemning the coercive actions of the People's Republic of China against Japan in response to statements regarding Taiwan and reaffirming the United States commitment to its allies in the Indo-Pacific region.",
+        "introduced": "2025-12-19",
+        "latest_action_date": "2026-03-26",
+        "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 45 - 0.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/971"
+      },
+      {
+        "role": "Cosponsor",
         "id": "119-hr-2559",
         "title": "Taiwan Allies Fund Act",
         "introduced": "2025-04-01",
@@ -586,42 +484,33 @@
       },
       {
         "role": "Cosponsor",
-        "id": "119-hres-1278",
-        "title": "Reaffirming congressional support for the Taiwan Relations Act and longstanding bipartisan Taiwan policy.",
-        "introduced": "2026-05-12",
-        "latest_action_date": "2026-05-12",
-        "latest_action": "Referred to the House Committee on Foreign Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1278"
+        "id": "119-hr-2127",
+        "title": "Expel Illegal Chinese Police Act of 2025",
+        "introduced": "2025-03-25",
+        "latest_action_date": "2025-03-14",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2127"
       },
       {
         "role": "Cosponsor",
-        "id": "119-hr-8712",
-        "title": "Uyghur Forced Labor Disclosure Act",
-        "introduced": "2026-05-07",
-        "latest_action_date": "2026-05-14",
-        "latest_action": "Sponsor introductory remarks on measure. (CR H3461)",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8712"
+        "id": "119-hres-130",
+        "title": "Expressing the sense of the House of Representatives in condemning the Government of the People's Republic of China for its harassment and efforts to intimidate American citizens and other individuals on United States soil with the goal of suppressing speech and narratives the People's Republic of China finds unwelcome.",
+        "introduced": "2025-02-13",
+        "latest_action_date": "2025-02-13",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/130"
       },
       {
         "role": "Cosponsor",
-        "id": "119-hr-8730",
-        "title": "Connected Vehicle Security Act of 2026",
-        "introduced": "2026-08-31",
-        "latest_action_date": "2026-05-11",
-        "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8730"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hres-1324",
-        "title": "Recognizing the 1885 Rock Springs Chinese Massacre.",
-        "introduced": "2026-05-26",
-        "latest_action_date": "2026-05-26",
-        "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1324"
+        "id": "119-hr-33",
+        "title": "To amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
+        "introduced": "2025-01-13",
+        "latest_action_date": "2025-01-16",
+        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/33"
       }
     ],
-    "n_legislation": 8
+    "n_legislation": 10
   },
   {
     "bioguideId": "M001137",
@@ -792,6 +681,81 @@
     "n_legislation": 8
   },
   {
+    "bioguideId": "K000391",
+    "name": "Krishnamoorthi, Raja",
+    "state": "Illinois",
+    "partyName": "Democratic",
+    "chamber": "House",
+    "note": "Ranking Member - House Select Committee on the CCP",
+    "watchlist": true,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-hres-1322",
+        "title": "Condemning racist rhetoric targeting Indian and Chinese Americans, reaffirming that immigrants from all backgrounds are vital to the United States, and calling on all elected officials to refrain from language that promotes racial or ethnic division.",
+        "introduced": "2026-05-22",
+        "latest_action_date": "2026-05-22",
+        "latest_action": "Referred to the House Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1322"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-5022",
+        "title": "No Advanced Chips for the CCP Act of 2025.",
+        "introduced": "2025-08-22",
+        "latest_action_date": "2025-08-22",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5022"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-3452",
+        "title": "Six Assurances to Taiwan Act",
+        "introduced": "2025-05-15",
+        "latest_action_date": "2025-05-15",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3452"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-2559",
+        "title": "Taiwan Allies Fund Act",
+        "introduced": "2025-04-01",
+        "latest_action_date": "2025-04-01",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2559"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-1278",
+        "title": "Reaffirming congressional support for the Taiwan Relations Act and longstanding bipartisan Taiwan policy.",
+        "introduced": "2026-05-12",
+        "latest_action_date": "2026-05-12",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1278"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-8712",
+        "title": "Uyghur Forced Labor Disclosure Act",
+        "introduced": "2026-05-07",
+        "latest_action_date": "2026-05-14",
+        "latest_action": "Sponsor introductory remarks on measure. (CR H3461)",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8712"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-1324",
+        "title": "Recognizing the 1885 Rock Springs Chinese Massacre.",
+        "introduced": "2026-05-26",
+        "latest_action_date": "2026-05-26",
+        "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1324"
+      }
+    ],
+    "n_legislation": 7
+  },
+  {
     "bioguideId": "M001157",
     "name": "McCaul, Michael T.",
     "state": "Texas",
@@ -865,63 +829,6 @@
       }
     ],
     "n_legislation": 7
-  },
-  {
-    "bioguideId": "H001072",
-    "name": "Hill, J. French",
-    "state": "Arkansas",
-    "partyName": "Republican",
-    "chamber": "House",
-    "note": "Chair - Financial Services",
-    "watchlist": true,
-    "legislation": [
-      {
-        "role": "Sponsor",
-        "id": "119-hr-5626",
-        "title": "Taiwan and American Space Assistance Act of 2025",
-        "introduced": "2025-09-30",
-        "latest_action_date": "2025-09-30",
-        "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5626"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-8730",
-        "title": "Connected Vehicle Security Act of 2026",
-        "introduced": "2026-09-28",
-        "latest_action_date": "2026-05-11",
-        "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8730"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-8584",
-        "title": "Indo-Pacific Space Partnership Act of 2026",
-        "introduced": "2026-04-29",
-        "latest_action_date": "2026-04-29",
-        "latest_action": "Referred to the House Committee on Armed Services.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8584"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hres-930",
-        "title": "Commemorating the 78th birthday of Jimmy Lai on December 8, 2025, as \"Jimmy Lai Day\", for his role in advocating for free press, religious freedom, and democracy in Hong Kong, and calling on the People's Republic of China and Hong Kong authorities to release Jimmy Lai and all other Hong Kong prodemocracy advocates from prison.",
-        "introduced": "2026-02-23",
-        "latest_action_date": "2025-12-04",
-        "latest_action": "Referred to the House Committee on Foreign Affairs.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/930"
-      },
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-5491",
-        "title": "Nelson Wells Jr. and Dawn Michelle Hunt Unjustly Detained in Communist China Act",
-        "introduced": "2025-09-18",
-        "latest_action_date": "2025-09-18",
-        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5491"
-      }
-    ],
-    "n_legislation": 5
   },
   {
     "bioguideId": "R000584",
@@ -1093,6 +1000,54 @@
       }
     ],
     "n_legislation": 5
+  },
+  {
+    "bioguideId": "H001072",
+    "name": "Hill, J. French",
+    "state": "Arkansas",
+    "partyName": "Republican",
+    "chamber": "House",
+    "note": "Chair - Financial Services",
+    "watchlist": true,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-hr-5626",
+        "title": "Taiwan and American Space Assistance Act of 2025",
+        "introduced": "2025-09-30",
+        "latest_action_date": "2025-09-30",
+        "latest_action": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5626"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-8584",
+        "title": "Indo-Pacific Space Partnership Act of 2026",
+        "introduced": "2026-04-29",
+        "latest_action_date": "2026-04-29",
+        "latest_action": "Referred to the House Committee on Armed Services.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8584"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-930",
+        "title": "Commemorating the 78th birthday of Jimmy Lai on December 8, 2025, as \"Jimmy Lai Day\", for his role in advocating for free press, religious freedom, and democracy in Hong Kong, and calling on the People's Republic of China and Hong Kong authorities to release Jimmy Lai and all other Hong Kong prodemocracy advocates from prison.",
+        "introduced": "2026-02-23",
+        "latest_action_date": "2025-12-04",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/930"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-5491",
+        "title": "Nelson Wells Jr. and Dawn Michelle Hunt Unjustly Detained in Communist China Act",
+        "introduced": "2025-09-18",
+        "latest_action_date": "2025-09-18",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5491"
+      }
+    ],
+    "n_legislation": 4
   },
   {
     "bioguideId": "H000601",
@@ -1288,27 +1243,6 @@
         "latest_action_date": "2025-01-16",
         "latest_action": "Received in the Senate and Read twice and referred to the Committee on Finance.",
         "url": "https://www.congress.gov/bill/119th-congress/house-bill/33"
-      }
-    ],
-    "n_legislation": 1
-  },
-  {
-    "bioguideId": "W000187",
-    "name": "Waters, Maxine",
-    "state": "California",
-    "partyName": "Democratic",
-    "chamber": "House",
-    "note": "Ranking Member - Financial Services",
-    "watchlist": true,
-    "legislation": [
-      {
-        "role": "Cosponsor",
-        "id": "119-hr-8730",
-        "title": "Connected Vehicle Security Act of 2026",
-        "introduced": "2026-08-17",
-        "latest_action_date": "2026-05-11",
-        "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8730"
       }
     ],
     "n_legislation": 1

@@ -64,38 +64,5 @@
     "title": "Business meeting to consider S.69, to amend the Communications Act of 1934 to address governmental interference in content moderation decisions by providers of interactive computer services, S.2586, to require the Administrator of the National Oceanic and Atmospheric Administration to establish an assessment program for commercial-scale offshore aquaculture through demonstration projects, to establish Aquaculture Centers of Excellence, to support aquaculture workforce development and working waterfronts, S.2883, to establish an East Coast Bivalve Research Task Force, S.3301, to prohibit purchases of certain semiconductor manufacturing equipment from foreign entities of concern or subsidiaries of foreign entities of concern, S.3741, to require the Secretary of Commerce to promulgate regulations to improve nucleic acid synthesis security, S.3954, to terminate the ability of eligible telecommunications carriers in certain States to use State eligibility determination processes in place of the National Verifier to determine the eligibility of consumers for Lifeline service, S.4256, to amend title 49, United States Code, to establish acceptable formats for presentation of airman certificates to the Federal Aviation Administration, S.5251, to modify the termination of the aviation consumer protection advisory committee, S.5332, to direct the National Oceanic and Atmospheric Administration to maintain the Cooperative Institute Program, S.5508, to establish a public-private working group to develop cybersecurity best practices for telecommunications carriers and related supply chain participants, S.5663, to establish a program at the National Science Foundation to fund research awards to reproduce federally funded research, and an original bill entitled, \"Trucker Bathroom Access Act\", and the nominations of Leslie Becera, of Virginia, to be an Assistant Secretary of Transportation, Danielle Thumann Severs, of North Carolina, to be a Member of the Federal Communications Commission, Joshua Shoemaker, of Virginia, to be Chief Financial Officer, and Robert Steinau, of Maryland, to be Inspector General, both of the National Aeronautics and Space Administration, and a promotion list in the Coast Guard.",
     "committees": "Senate Commerce, Science, and Transportation",
     "url": "https://www.congress.gov/event/119th-Congress/senate-event/338832"
-  },
-  {
-    "id": "119148",
-    "congress": "119",
-    "chamber": "House",
-    "date": "2026-04-15T18:00:00Z",
-    "type": "Hearing",
-    "status": "Scheduled",
-    "title": "Computing Power and Competition: Examining the Semiconductor Ecosystem.",
-    "committees": "House Energy and Commerce Subcommittee on Commerce, Manufacturing, and Trade",
-    "url": "https://www.congress.gov/event/119th-Congress/house-event/119148"
-  },
-  {
-    "id": "119218",
-    "congress": "119",
-    "chamber": "House",
-    "date": "2026-04-29T14:00:00Z",
-    "type": "Hearing",
-    "status": "Scheduled",
-    "title": "“Data Centers, Telecommunications Networks, and Space-Based Systems: Modernizing DHS’s SRMA Role for the Communications and IT Sectors”",
-    "committees": "Homeland Security Subcommittee on Cybersecurity and Infrastructure Protection",
-    "url": "https://www.congress.gov/event/119th-Congress/house-event/119218"
-  },
-  {
-    "id": "116387",
-    "congress": "118",
-    "chamber": "House",
-    "date": "2023-09-20T14:30:00Z",
-    "type": "Hearing",
-    "status": "Scheduled",
-    "title": "Mapping America’s Supply Chains: Solutions to Unleash Innovation, Boost Economic Resilience, and Beat China",
-    "committees": null,
-    "url": "https://www.congress.gov/event/118th-Congress/house-event/116387"
   }
 ]
