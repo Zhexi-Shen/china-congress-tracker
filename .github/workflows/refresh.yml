@@ -39,6 +39,7 @@ jobs:
         env:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
           LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS || '72' }}
+          MEETING_LOOKBACK_HOURS: ${{ vars.MEETING_LOOKBACK_HOURS || '720' }}
         run: Rscript R/fetch.R
 
       - name: Commit data snapshot

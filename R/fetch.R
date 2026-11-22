@@ -2,7 +2,8 @@
 #
 # Pulls from the Congress.gov API (https://api.congress.gov):
 #   1. recently-updated bills (filtered to China relevance),
-#   2. committee meetings / hearings (filtered by title + committee),
+#   2. committee meetings / hearings (filtered by title + committee, with a
+#      longer 30-day lookback than bills),
 #   3. activity for a curated watchlist of members plus members who are
 #      actively sponsoring China-related bills.
 #
@@ -43,6 +44,7 @@ dir.create(data_dir, showWarnings = FALSE, recursive = TRUE)
 
 base_url <- "https://api.congress.gov/v3"
 lookback_hours <- as.numeric(Sys.getenv("LOOKBACK_HOURS", "72"))
+meeting_lookback_hours <- as.numeric(Sys.getenv("MEETING_LOOKBACK_HOURS", "720"))
 max_detail_calls <- as.numeric(Sys.getenv("MAX_DETAIL_CALLS", "500"))
 throttle_sec <- as.numeric(Sys.getenv("THROTTLE_SEC", "0.1"))
 
@@ -385,14 +387,17 @@ main <- function() {
   current_congress <- get_current_congress()
   message("Current congress: ", current_congress)
 
-  from_dt <- now_utc() - lookback_hours * 3600
-  to_dt <- now_utc()
-  message("Window: ", fmt_dt(from_dt), " .. ", fmt_dt(to_dt))
+  bill_from_dt <- now_utc() - lookback_hours * 3600
+  bill_to_dt <- now_utc()
+  meeting_from_dt <- now_utc() - meeting_lookback_hours * 3600
+  meeting_to_dt <- now_utc()
+  message("Bill window: ", fmt_dt(bill_from_dt), " .. ", fmt_dt(bill_to_dt))
+  message("Meeting window: ", fmt_dt(meeting_from_dt), " .. ", fmt_dt(meeting_to_dt))
 
-  bills <- fetch_china_bills(from_dt, to_dt)
+  bills <- fetch_china_bills(bill_from_dt, bill_to_dt)
   china_ids <- unique(vapply(bills, function(b) b$id, character(1)))
 
-  meetings <- fetch_meetings(from_dt, to_dt)
+  meetings <- fetch_meetings(meeting_from_dt, meeting_to_dt)
 
   members_all <- fetch_current_members()
   message("  ", length(members_all), " current members")
@@ -443,6 +448,18 @@ main <- function() {
     members[[j]] <- m
   }
 
+  # Drop watchlist members who have no China-related legislative activity this
+  # Congress. Auto-added members always have at least one recent China bill.
+  n_before <- length(members)
+  members <- Filter(function(m) {
+    if (!isTRUE(m$watchlist)) return(TRUE)
+    length(m$legislation) > 0L
+  }, members)
+  if (length(members) < n_before) {
+    message("  dropped ", n_before - length(members),
+            " watchlist member(s) with no China-related activity")
+  }
+
   members <- members[order(
     -vapply(members, function(m) isTRUE(m$watchlist), logical(1)),
     -vapply(members, function(m) length(m$legislation), integer(1))
@@ -452,6 +469,7 @@ main <- function() {
     generated_at = fmt_dt(now_utc()),
     congress = as.integer(current_congress),
     lookback_hours = lookback_hours,
+    meeting_lookback_hours = meeting_lookback_hours,
     counts = list(
       bills = length(bills),
       meetings = length(meetings),

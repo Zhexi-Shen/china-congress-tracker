@@ -47,10 +47,14 @@ Requires the R packages `httr2`, `jsonlite`, `reactable`, `htmltools`, and a
 - **Watchlist** — edit [`config/members.csv`](config/members.csv). Names are in
   "Last, First" form and are matched against the current member list at fetch
   time; unmatched/ambiguous names are skipped with a warning in the workflow log.
+  Watchlist members with no China-related bills this Congress are dropped
+  automatically (auto-added sponsors always have at least one).
 - **Relevance keywords** — edit the `china_terms`, `econ_trade_terms`, and
   committee term lists at the top of [`R/fetch.R`](R/fetch.R).
-- **Lookback window** — set the `LOOKBACK_HOURS` repository variable (default 72),
-  or the `LOOKBACK_HOURS` environment variable locally.
+- **Lookback windows** — `LOOKBACK_HOURS` controls the bill window (default 72)
+  and `MEETING_LOOKBACK_HOURS` controls the hearings/meetings window (default 720,
+  i.e. 30 days). Set either as a repository variable or an environment variable
+  locally.
 
 ## Known limitations
 
