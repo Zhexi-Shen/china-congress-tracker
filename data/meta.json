@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-11-22T02:23:11Z",
+  "generated_at": "2026-11-22T05:19:59Z",
   "congress": 119,
   "lookback_hours": 72,
+  "meeting_lookback_hours": 720,
   "counts": {
-    "bills": 8,
-    "meetings": 2,
-    "members": 20
+    "bills": 6,
+    "meetings": 9,
+    "members": 18
   }
 }
