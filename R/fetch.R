@@ -69,17 +69,19 @@ econ_trade_terms <- c(
   "technology transfer", "supply chain", "rare earth", "critical mineral",
   "sanction", "currency", "exchange rate", "investment", "manufacturing",
   "intellectual property", "tiktok", "telecommunication", "5g", "decoupling",
-  "export control", "most favored nation", "mfn", "world trade organization",
+  "export control", "most favored nation", "mfn", "normal trade relations",
+  "pntr", "special treatment", "market access", "trade agreement",
+  "trade representative", "export-import bank", "world trade organization",
   "wto", "economic", "economy", "fentanyl", "lithium", "cobalt", "nickel",
   "graphite"
 )
 
 econ_policy_areas <- c(
-  "Foreign Trade and International Finance", "International Affairs",
-  "Economics and Public Finance", "Taxation", "Commerce",
-  "Finance and Financial Sector", "Energy", "Science, Technology, Communications",
-  "Armed Forces and National Security", "Transportation and Public Works",
-  "Immigration"
+  "Foreign Trade and International Finance",
+  "Economics and Public Finance",
+  "Taxation",
+  "Commerce",
+  "Finance and Financial Sector"
 )
 
 china_committee_terms <- c("china", "strategic competition", "indo-pacific", "taiwan")
