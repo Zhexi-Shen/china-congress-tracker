@@ -293,6 +293,11 @@ fetch_china_bills <- function(congress) {
     out[[length(out) + 1L]] <- rec
   }
 
+  # Title-matched and subject-only bills were gathered in separate passes, so
+  # re-sort the combined list newest-first.
+  d <- vapply(out, function(b) ch(b$latest_action_date), character(1))
+  out <- out[order(as.Date(d), decreasing = TRUE, na.last = TRUE)]
+
   message("  ", length(out), " China-related bills")
   out
 }
