@@ -47,6 +47,7 @@ lookback_hours <- as.numeric(Sys.getenv("LOOKBACK_HOURS", "720"))
 meeting_lookback_hours <- as.numeric(Sys.getenv("MEETING_LOOKBACK_HOURS", "720"))
 max_detail_calls <- as.numeric(Sys.getenv("MAX_DETAIL_CALLS", "500"))
 throttle_sec <- as.numeric(Sys.getenv("THROTTLE_SEC", "0.1"))
+subject_scan_limit <- as.numeric(Sys.getenv("SUBJECT_SCAN_LIMIT", "300"))
 
 now_utc <- function() as.POSIXct(Sys.time(), tz = "UTC")
 fmt_dt <- function(x) format(x, "%Y-%m-%dT%H:%M:%SZ", tz = "UTC")
@@ -208,69 +209,89 @@ bill_official_url <- function(congress, type, number) {
 # 1. Bills
 # ---------------------------------------------------------------------------
 
-fetch_subjects <- function(congress, type, number) {
-  r <- api_get(sprintf("/bill/%s/%s/%s/subjects", congress, tolower(type), number))
-  subj <- r$subjects %||% list()
+bill_detail <- function(b) {
+  det <- api_get(sprintf("/bill/%s/%s/%s", ch(b$congress), tolower(ch(b$type)), ch(b$number)))
+  det$bill %||% det %||% b
+}
+
+build_bill_record <- function(b, d) {
+  title <- ch(d$title)
+  policy <- ch(d$policyArea$name)
+  subj <- d$subjects %||% list()
   leg <- subj$legislativeSubjects %||% list()
+  subject_names <- vapply(leg, function(x) ch(x$name), character(1))
   list(
-    subject_names = vapply(leg, function(x) ch(x$name), character(1)),
-    policy_area = ch(subj$policyArea$name)
+    id = bill_id(ch(d$congress), ch(d$type), ch(d$number)),
+    congress = ch(d$congress),
+    bill = toupper(ch(d$type)),
+    number = ch(d$number),
+    title = title,
+    policy_area = policy,
+    is_econ_trade = policy %in% econ_policy_areas ||
+      match_any(title, econ_trade_terms) ||
+      match_any(subject_names, econ_trade_terms),
+    latest_action_date = ch(d$latestAction$actionDate) %||% ch(b$latestAction$actionDate),
+    latest_action = ch(d$latestAction$text) %||% ch(b$latestAction$text),
+    update_date = ch(d$updateDate) %||% ch(b$updateDate),
+    sponsors = lapply(d$sponsors %||% list(), function(sp) {
+      list(bioguideId = ch(sp$bioguideId), fullName = ch(sp$fullName) %||% ch(sp$name))
+    }),
+    url = bill_official_url(ch(d$congress), ch(d$type), ch(d$number))
   )
 }
 
-fetch_china_bills <- function(from_dt, to_dt) {
-  message("Fetching recently updated bills...")
+fetch_china_bills <- function(congress) {
+  message("Fetching bills for congress ", congress, "...")
   raw <- fetch_list(
-    "/bill",
-    query = list(
-      fromDateTime = fmt_dt(from_dt), toDateTime = fmt_dt(to_dt),
-      sort = "updateDate+desc"
-    ),
-    item_key = "bills", max_pages = 8L
+    sprintf("/bill/%s", congress),
+    query = list(sort = "updateDate+desc"),
+    item_key = "bills", max_pages = 100L
   )
-  message("  ", length(raw), " bills updated in window")
-  # Offset pagination can drift on a live-updating feed; drop duplicate bills
+  message("  ", length(raw), " bills in congress")
+
+  # Offset pagination drifts on a live-updating feed; drop duplicate bills.
   raw <- raw[!duplicated(vapply(raw, function(b) {
     bill_id(ch(b$congress), ch(b$type), ch(b$number))
   }, character(1)))]
-  n <- min(length(raw), max_detail_calls)
-  out <- list()
-  for (i in seq_len(n)) {
-    b <- raw[[i]]
-    s <- fetch_subjects(ch(b$congress), ch(b$type), ch(b$number))
-    policy <- ch(b$policyArea$name) %||% s$policy_area
-    title <- ch(b$title)
-    is_china <- match_any(title, china_terms) || match_any(s$subject_names, china_terms)
-    if (!is_china) next
-    is_econ <- policy %in% econ_policy_areas ||
-      match_any(title, econ_trade_terms) ||
-      match_any(s$subject_names, econ_trade_terms)
-    sponsors <- lapply(b$sponsors %||% list(), function(sp) {
-      list(bioguideId = ch(sp$bioguideId), fullName = ch(sp$fullName) %||% ch(sp$name))
-    })
-    out[[length(out) + 1L]] <- list(
-      id = bill_id(ch(b$congress), ch(b$type), ch(b$number)),
-      congress = ch(b$congress),
-      bill = toupper(ch(b$type)),
-      number = ch(b$number),
-      title = title,
-      policy_area = policy,
-      is_econ_trade = is_econ,
-      latest_action_date = ch(b$latestAction$actionDate),
-      latest_action = ch(b$latestAction$text),
-      update_date = ch(b$updateDate),
-      sponsors = sponsors,
-      url = bill_official_url(ch(b$congress), ch(b$type), ch(b$number))
-    )
-  }
 
-  # Drop bills whose latest action falls outside the window. The API filters on
-  # update date, which can be newer than the action date shown on the page.
-  cutoff <- as.Date(from_dt)
-  out <- Filter(function(b) {
-    d <- parse_date(b$latest_action_date)
-    !is.na(d) && d >= cutoff
-  }, out)
+  # Classify China relevance by title first: titles are already in the list
+  # response, so this needs no detail calls.
+  is_title <- vapply(raw, function(b) match_any(ch(b$title), china_terms), logical(1))
+  candidates <- raw[is_title]
+  message("  ", length(candidates), " bills with a China-related title")
+
+  # Bounded subject scan for bills whose title doesn't mention China, to catch
+  # bills that are China-related by legislative subject only. Limited to the
+  # most recently updated bills and non-fatal to avoid re-triggering 500s.
+  rest <- raw[!is_title]
+  n_scan <- min(length(rest), subject_scan_limit)
+  subject_hits <- list()
+  if (n_scan > 0L) {
+    message("  checking subjects of ", n_scan, " recently updated bills...")
+    for (i in seq_len(n_scan)) {
+      b <- rest[[i]]
+      d <- bill_detail(b)
+      leg <- (d$subjects %||% list())$legislativeSubjects %||% list()
+      s_names <- vapply(leg, function(x) ch(x$name), character(1))
+      if (match_any(s_names, china_terms)) {
+        subject_hits[[length(subject_hits) + 1L]] <- list(b = b, d = d)
+      }
+    }
+  }
+  message("  ", length(subject_hits), " bills China-related by subject")
+
+  out <- list()
+  seen <- character()
+  for (b in candidates) {
+    rec <- build_bill_record(b, bill_detail(b))
+    out[[length(out) + 1L]] <- rec
+    seen <- c(seen, rec$id)
+  }
+  for (h in subject_hits) {
+    rec <- build_bill_record(h$b, h$d)
+    if (rec$id %in% seen) next
+    out[[length(out) + 1L]] <- rec
+  }
 
   message("  ", length(out), " China-related bills")
   out
@@ -433,14 +454,11 @@ main <- function() {
   current_congress <- get_current_congress()
   message("Current congress: ", current_congress)
 
-  bill_from_dt <- now_utc() - lookback_hours * 3600
-  bill_to_dt <- now_utc()
   meeting_from_dt <- now_utc() - meeting_lookback_hours * 3600
   meeting_to_dt <- now_utc()
-  message("Bill window: ", fmt_dt(bill_from_dt), " .. ", fmt_dt(bill_to_dt))
   message("Meeting window: ", fmt_dt(meeting_from_dt), " .. ", fmt_dt(meeting_to_dt))
 
-  bills <- fetch_china_bills(bill_from_dt, bill_to_dt)
+  bills <- fetch_china_bills(current_congress)
   china_ids <- unique(vapply(bills, function(b) b$id, character(1)))
 
   meetings <- fetch_meetings(meeting_from_dt, meeting_to_dt)
@@ -454,7 +472,7 @@ main <- function() {
   )
   members <- resolve_watchlist(watchlist, members_all)
 
-  # Auto-add sponsors of recent China-related bills (who is actively legislating)
+  # Auto-add sponsors of China-related bills (who is actively legislating)
   sponsor_ids <- character()
   sponsor_names <- character()
   for (b in bills) {
@@ -479,7 +497,7 @@ main <- function() {
         state = ch(info$state),
         partyName = ch(info$partyName),
         chamber = member_chamber(info),
-        note = sprintf("Sponsor of %d recent China-related bill(s)", unname(tt[bio])),
+        note = sprintf("Sponsor of %d China-related bill(s)", unname(tt[bio])),
         watchlist = FALSE
       )
     }
@@ -514,7 +532,6 @@ main <- function() {
   meta <- list(
     generated_at = fmt_dt(now_utc()),
     congress = as.integer(current_congress),
-    lookback_hours = lookback_hours,
     meeting_lookback_hours = meeting_lookback_hours,
     counts = list(
       bills = length(bills),

@@ -42,6 +42,7 @@ jobs:
           MEETING_LOOKBACK_HOURS: ${{ vars.MEETING_LOOKBACK_HOURS || '720' }}
           THROTTLE_SEC: ${{ vars.THROTTLE_SEC || '0.1' }}
           MAX_DETAIL_CALLS: ${{ vars.MAX_DETAIL_CALLS || '500' }}
+          SUBJECT_SCAN_LIMIT: ${{ vars.SUBJECT_SCAN_LIMIT || '300' }}
         run: Rscript R/fetch.R
 
       - name: Commit data snapshot

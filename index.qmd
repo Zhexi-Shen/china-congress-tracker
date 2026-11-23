@@ -7,7 +7,7 @@ execute:
 ---
 
 Tracks recent U.S. congressional activity related to China, with an emphasis on
-economy and trade: bills with new movement, committee hearings and meetings, and
+economy and trade: all China-related bills in the current Congress, committee hearings and meetings, and
 activity by high-influence members. Every entry links to its official
 [congress.gov](https://www.congress.gov) page. Data is refreshed hourly from the
 [Congress.gov API](https://api.congress.gov).
@@ -56,7 +56,7 @@ count <- function(x) if (is.null(x)) 0L else length(x)
 
 **Last updated:** `r safe(meta$generated_at)` |
 **Congress:** `r safe(meta$congress)` |
-**Bills window:** `r safe(meta$lookback_hours)` hours |
+**Bills:** all of the `r safe(meta$congress)`th Congress |
 **Hearings window:** `r safe(meta$meeting_lookback_hours)` hours
 
 ## Bills (`r count(bills)`)
