@@ -101,19 +101,39 @@ match_any <- function(text, terms) {
 # API helpers
 # ---------------------------------------------------------------------------
 
-api_get <- function(path, query = list(), retries = 4) {
+backoff_wait <- function(attempt) {
+  # Jittered exponential backoff, capped at 60s. Jitter avoids every caller
+  # sleeping in lockstep when the API is under load.
+  min(2^attempt, 60) * runif(1, 0.5, 1.5)
+}
+
+# fatal = TRUE makes a persistent 5xx/network failure raise an error instead of
+# returning NULL. Use it for the list endpoints whose failure would otherwise
+# silently produce an empty/incomplete snapshot.
+api_get <- function(path, query = list(), retries = 6L, fatal = FALSE) {
   key <- Sys.getenv("CONGRESS_API_KEY", "")
   if (!nzchar(key)) stop("CONGRESS_API_KEY environment variable is not set.")
   combined <- c(query, list(format = "json", api_key = key))
   req <- request(paste0(base_url, path))
   req <- do.call(req_url_query, c(list(.req = req), combined))
+  # The API sits behind Cloudflare, which is friendlier to requests that
+  # identify themselves than to the empty default User-Agent.
+  req <- req_user_agent(
+    req, "china-congress-tracker/1.0 (+https://github.com/Zhexi-Shen/china-congress-tracker)"
+  )
   # Handle HTTP status codes ourselves rather than letting httr2 throw on 4xx/5xx
   req <- req_error(req, is_error = function(resp) FALSE)
+
   for (i in seq_len(retries)) {
     resp <- tryCatch(req_perform(req), error = function(e) e)
     if (inherits(resp, "error")) {
+      if (i >= retries) {
+        if (fatal) stop("Giving up on ", path, ": ", conditionMessage(resp), call. = FALSE)
+        warning("Giving up on ", path, ": ", conditionMessage(resp))
+        return(NULL)
+      }
       message("  request error (attempt ", i, "): ", conditionMessage(resp))
-      Sys.sleep(min(2^i, 30))
+      Sys.sleep(backoff_wait(i))
       next
     }
     status <- resp_status(resp)
@@ -122,8 +142,16 @@ api_get <- function(path, query = list(), retries = 4) {
       return(NULL)
     }
     if (status %in% c(429L, 500L, 502L, 503L, 504L)) {
-      message("  HTTP ", status, " on ", path, " (attempt ", i, ")")
-      Sys.sleep(min(2^i * 2, 60))
+      if (i >= retries) {
+        if (fatal) stop("HTTP ", status, " persists for ", path, " after ", retries, " attempts", call. = FALSE)
+        warning("Giving up on ", path, " (HTTP ", status, " after ", retries, " attempts)")
+        return(NULL)
+      }
+      # Honor Retry-After when provided; otherwise use jittered backoff.
+      wait <- suppressWarnings(as.numeric(resp_header(resp, "retry-after")))
+      if (length(wait) == 0L || is.na(wait) || wait <= 0) wait <- backoff_wait(i)
+      message("  HTTP ", status, " on ", path, " (attempt ", i, "); retrying in ", round(wait, 1), "s")
+      Sys.sleep(wait)
       next
     }
     if (status >= 400L) {
@@ -133,7 +161,6 @@ api_get <- function(path, query = list(), retries = 4) {
     Sys.sleep(throttle_sec)
     return(resp_body_json(resp, simplifyVector = FALSE))
   }
-  warning("Giving up on ", path)
   NULL
 }
 
@@ -141,7 +168,7 @@ fetch_list <- function(path, query = list(), item_key, max_pages = 10L, per_page
   out <- list()
   offset <- 0L
   repeat {
-    page <- api_get(path, query = c(query, list(limit = per_page, offset = offset)))
+    page <- api_get(path, query = c(query, list(limit = per_page, offset = offset)), fatal = TRUE)
     if (is.null(page)) break
     items <- page[[item_key]]
     if (is.null(items) || length(items) == 0L) break
@@ -154,7 +181,7 @@ fetch_list <- function(path, query = list(), item_key, max_pages = 10L, per_page
 }
 
 get_current_congress <- function() {
-  r <- api_get("/congress/current")
+  r <- api_get("/congress/current", fatal = TRUE)
   nm <- ch(r$congress$name)
   num <- suppressWarnings(as.integer(regmatches(nm, regexpr("[0-9]+", nm))))
   if (length(num) == 0L || is.na(num)) num <- 119L

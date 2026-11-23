@@ -40,6 +40,8 @@ jobs:
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
           LOOKBACK_HOURS: ${{ vars.LOOKBACK_HOURS || '720' }}
           MEETING_LOOKBACK_HOURS: ${{ vars.MEETING_LOOKBACK_HOURS || '720' }}
+          THROTTLE_SEC: ${{ vars.THROTTLE_SEC || '0.1' }}
+          MAX_DETAIL_CALLS: ${{ vars.MAX_DETAIL_CALLS || '500' }}
         run: Rscript R/fetch.R
 
       - name: Commit data snapshot
