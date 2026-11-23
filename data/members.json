@@ -1246,5 +1246,1628 @@
       }
     ],
     "n_legislation": 1
+  },
+  {
+    "bioguideId": "S001217",
+    "name": "Scott, Rick",
+    "state": "Florida",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Sponsor of 18 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-5643",
+        "title": "Protecting U.S. Investors From Chinese Military Companies Act",
+        "introduced": "2026-09-30",
+        "latest_action_date": "2026-09-30",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5643"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-5044",
+        "title": "Honoring the Victims of Communist China’s Tyranny Act",
+        "introduced": "2026-07-21",
+        "latest_action_date": "2026-07-21",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5044"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-4581",
+        "title": "CCP Sanctions Shot Clock Act",
+        "introduced": "2026-05-20",
+        "latest_action_date": "2026-05-20",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4581"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-4601",
+        "title": "Chinese CBDC Prohibition Act of 2026",
+        "introduced": "2026-05-20",
+        "latest_action_date": "2026-05-20",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4601"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-4586",
+        "title": "Blocking CCP Spy Tech Act of 2026",
+        "introduced": "2026-05-20",
+        "latest_action_date": "2026-05-20",
+        "latest_action": "Read twice and referred to the Select Committee on Intelligence.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4586"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-4432",
+        "title": "Tibet Atrocities Determination Act",
+        "introduced": "2026-04-29",
+        "latest_action_date": "2026-04-29",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4432"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3640",
+        "title": "Divesting from Communist China’s Military Act of 2026",
+        "introduced": "2026-01-14",
+        "latest_action_date": "2026-01-14",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3640"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3566",
+        "title": "No Trade Preferences for Communist China Act",
+        "introduced": "2025-12-18",
+        "latest_action_date": "2025-12-18",
+        "latest_action": "Read twice and referred to the Committee on Finance.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3566"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3320",
+        "title": "Keep China Out of Solar Energy Act of 2025",
+        "introduced": "2025-12-03",
+        "latest_action_date": "2025-12-03",
+        "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3320"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3069",
+        "title": "Protecting Americans from Harmful CCP Products Act",
+        "introduced": "2025-10-29",
+        "latest_action_date": "2025-10-29",
+        "latest_action": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3069"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3036",
+        "title": "Chinese Communist Party SDR Exchange Prohibition Act of 2025",
+        "introduced": "2025-10-23",
+        "latest_action_date": "2025-10-23",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3036"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-sres-444",
+        "title": "A resolution condemning the dictator of the People's Republic of China, Xi Jinping, for deceit, undermining prospects for peace and security, and orchestrating crimes against humanity.",
+        "introduced": "2025-10-09",
+        "latest_action_date": "2026-06-16",
+        "latest_action": "Resolution agreed to in Senate without amendment and with a preamble by Voice Vote. (consideration: CR S2813)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/444"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1824",
+        "title": "Taiwan PLUS Act",
+        "introduced": "2025-05-21",
+        "latest_action_date": "2025-05-21",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1824"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1772",
+        "title": "Confronting CCP Human Rights Abusers Act",
+        "introduced": "2025-05-15",
+        "latest_action_date": "2025-05-15",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1772"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1694",
+        "title": "DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+        "introduced": "2025-05-08",
+        "latest_action_date": "2025-05-08",
+        "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1694"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1623",
+        "title": "Countering Corrupt Political (CCP) Influence Act",
+        "introduced": "2025-05-06",
+        "latest_action_date": "2025-05-06",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1623"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1359",
+        "title": "STOP CCP Act of 2025",
+        "introduced": "2025-04-08",
+        "latest_action_date": "2025-04-08",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1359"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-672",
+        "title": "Protect America’s Innovation and Economic Security from CCP Act of 2025",
+        "introduced": "2025-02-20",
+        "latest_action_date": "2025-02-20",
+        "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/672"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-5362",
+        "title": "Assuring the Future of Tibet Act of 2026",
+        "introduced": "2026-08-07",
+        "latest_action_date": "2026-08-07",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5362"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1339",
+        "title": "Stop CCP Money Laundering Act of 2025",
+        "introduced": "2026-06-01",
+        "latest_action_date": "2025-04-08",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1339"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-657",
+        "title": "A resolution commending Taiwan on the 30th anniversary of its first direct presidential election in 1996, and expressing support for Taiwan in the preservation of its democratic institutions.",
+        "introduced": "2026-03-23",
+        "latest_action_date": "2026-03-23",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S1545-1546)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/657"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-547",
+        "title": "A resolution expressing unwavering support for the United States-Japan alliance in response to political, economic and military pressure by the People's Republic of China.",
+        "introduced": "2026-03-10",
+        "latest_action_date": "2025-12-17",
+        "latest_action": "Referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/547"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3655",
+        "title": "Hong Kong Economic and Trade Office (HKETO) Certification Act",
+        "introduced": "2026-03-05",
+        "latest_action_date": "2026-01-15",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3655"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2960",
+        "title": "Deter PRC Aggression Against Taiwan Act",
+        "introduced": "2025-11-03",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 245.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2960"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-463",
+        "title": "A resolution expressing condemnation of the Chinese Communist Party's persecution of religious minority groups, including Christians, Muslims, and Buddhists and the detention of Pastor \"Ezra\" Jin Mingri and leaders of the Zion Church, and reaffirming the United States' global commitment to promote religious freedom and tolerance.",
+        "introduced": "2025-10-27",
+        "latest_action_date": "2025-11-07",
+        "latest_action": "Resolution agreed to in Senate with an amendment and an amended preamble by Voice Vote. (text of amendment in the nature of a substitute: CR S7976)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/463"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-49",
+        "title": "Expel Illegal Chinese Police Act of 2025",
+        "introduced": "2025-10-21",
+        "latest_action_date": "2025-01-09",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/49"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-974",
+        "title": "Taiwan Representative Office Act",
+        "introduced": "2025-10-21",
+        "latest_action_date": "2025-03-12",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/974"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3018",
+        "title": "A bill to permit visiting dignitaries and service members from Taiwan to display the flag of the Republic of China.",
+        "introduced": "2025-10-21",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 499.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3018"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2502",
+        "title": "Preventing the Forced Return of Uyghurs Act of 2025",
+        "introduced": "2025-10-20",
+        "latest_action_date": "2025-07-29",
+        "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2502"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-409",
+        "title": "A resolution recognizing the 74th anniversary of the signing of the Mutual Defense Treaty between the United States and the Philippines and the strong bilateral security alliance between our two nations in the wake of escalating aggression and political lawfare by the People's Republic of China in the South China Sea.",
+        "introduced": "2025-09-18",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 248.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/409"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-418",
+        "title": "Defending Defense Research from Chinese Communist Party Espionage Act of 2025",
+        "introduced": "2025-09-11",
+        "latest_action_date": "2025-02-05",
+        "latest_action": "Read twice and referred to the Committee on Armed Services.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/418"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-108",
+        "title": "Protecting Higher Education from the Chinese Communist Party Act of 2025",
+        "introduced": "2025-07-28",
+        "latest_action_date": "2025-01-16",
+        "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/108"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2362",
+        "title": "Ending Lending to China Act of 2025",
+        "introduced": "2025-07-21",
+        "latest_action_date": "2025-07-21",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations. (text: CR S4506)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2362"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-715",
+        "title": "No American Land for Communist China Act",
+        "introduced": "2025-06-24",
+        "latest_action_date": "2025-02-25",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/715"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-330",
+        "title": "CCP IP Act",
+        "introduced": "2025-06-12",
+        "latest_action_date": "2025-07-23",
+        "latest_action": "Committee on Small Business and Entrepreneurship. Hearings held.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/330"
+      }
+    ],
+    "n_legislation": 35
+  },
+  {
+    "bioguideId": "C001114",
+    "name": "Curtis, John R.",
+    "state": "Utah",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Sponsor of 6 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-4294",
+        "title": "Taiwan Relations Reinforcement Act",
+        "introduced": "2026-04-14",
+        "latest_action_date": "2026-04-14",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4294"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3208",
+        "title": "Six Assurances to Taiwan Act",
+        "introduced": "2025-11-19",
+        "latest_action_date": "2025-11-19",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3208"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1542",
+        "title": "Uyghur Policy Act of 2026",
+        "introduced": "2025-04-30",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 496.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1542"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1339",
+        "title": "Stop CCP Money Laundering Act of 2025",
+        "introduced": "2025-04-08",
+        "latest_action_date": "2025-04-08",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1339"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-974",
+        "title": "Taiwan Representative Office Act",
+        "introduced": "2025-03-12",
+        "latest_action_date": "2025-03-12",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/974"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-330",
+        "title": "CCP IP Act",
+        "introduced": "2025-01-30",
+        "latest_action_date": "2025-07-23",
+        "latest_action": "Committee on Small Business and Entrepreneurship. Hearings held.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/330"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-865",
+        "title": "A resolution expressing the sense of the Senate that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
+        "introduced": "2026-09-17",
+        "latest_action_date": "2026-09-17",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S4802)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/865"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-791",
+        "title": "A resolution condemning the People's Republic of China's Ethnic Unity and Progress Law, concerned with its implications on the rights and freedoms, as well as survival of the identity, of Tibetans, Uyghurs, Mongolians, and other affected communities, and calling on the Government of the People's Republic of China to end its abuses and campaigns of transnational repression that undermine United States sovereignty and threaten the safety and freedoms of people in the United States.",
+        "introduced": "2026-06-24",
+        "latest_action_date": "2026-06-24",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S3217)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/791"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4600",
+        "title": "South China Sea Strategy Act of 2026",
+        "introduced": "2026-05-20",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 512.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4600"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-728",
+        "title": "A resolution expressing the sense of the Senate that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Jimmy Lai, Dr. Gulshan Abbas, and Ekpar Asat detained by the People's Republic of China during future engagements with Chinese President Xi Jingping.",
+        "introduced": "2026-05-13",
+        "latest_action_date": "2026-05-13",
+        "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S2283; text: CR S2282)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/728"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-716",
+        "title": "A resolution expressing the sense of the Senate regarding critical elements of the United States policy towards the People's Republic of China.",
+        "introduced": "2026-04-30",
+        "latest_action_date": "2026-04-30",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S2178-2179)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/716"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-677",
+        "title": "A resolution expressing the sense of the Senate that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+        "introduced": "2026-04-16",
+        "latest_action_date": "2026-04-16",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S1826)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/677"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4259",
+        "title": "Blue Skies for Taiwan Act of 2026",
+        "introduced": "2026-03-26",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 507.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4259"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-657",
+        "title": "A resolution commending Taiwan on the 30th anniversary of its first direct presidential election in 1996, and expressing support for Taiwan in the preservation of its democratic institutions.",
+        "introduced": "2026-03-23",
+        "latest_action_date": "2026-03-23",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S1545-1546)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/657"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3655",
+        "title": "Hong Kong Economic and Trade Office (HKETO) Certification Act",
+        "introduced": "2026-01-15",
+        "latest_action_date": "2026-01-15",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3655"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3018",
+        "title": "A bill to permit visiting dignitaries and service members from Taiwan to display the flag of the Republic of China.",
+        "introduced": "2025-10-22",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 499.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3018"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2684",
+        "title": "United States - Taiwan Partnership in the Americas Act",
+        "introduced": "2025-09-02",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 242.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2684"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2224",
+        "title": "Taiwan International Solidarity Act",
+        "introduced": "2025-07-09",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 237.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2224"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-283",
+        "title": "A resolution commemorating the 90th birthday of His Holiness the 14th Dalai Lama on July 6, 2025, as \"A Day of Compassion\" and expressing support for the human rights and distinct religious, cultural, linguistic, and historical identity of the Tibetan people.",
+        "introduced": "2025-06-17",
+        "latest_action_date": "2025-07-14",
+        "latest_action": "Resolution agreed to in Senate with an amendment and with a preamble by Unanimous Consent. (text: CR S4342-4343)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/283"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-226",
+        "title": "A resolution condemning the Government of the People's Republic of China for engaging in transnational repression.",
+        "introduced": "2025-05-14",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 247.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/226"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1755",
+        "title": "Hong Kong Judicial Sanctions Act",
+        "introduced": "2025-05-14",
+        "latest_action_date": "2025-05-14",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1755"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1588",
+        "title": "Taiwan Relations Reinforcement Act of 2025",
+        "introduced": "2025-05-05",
+        "latest_action_date": "2025-05-05",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1588"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1216",
+        "title": "Taiwan Allies Fund Act",
+        "introduced": "2025-03-31",
+        "latest_action_date": "2026-02-10",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 321.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1216"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-199",
+        "title": "A bill to amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
+        "introduced": "2025-02-24",
+        "latest_action_date": "2025-01-23",
+        "latest_action": "Read twice and referred to the Committee on Finance.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/199"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-580",
+        "title": "Combating CCP Labor Abuses Act of 2026",
+        "introduced": "2025-02-13",
+        "latest_action_date": "2026-11-20",
+        "latest_action": "Message on Senate action sent to the House.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/580"
+      }
+    ],
+    "n_legislation": 25
+  },
+  {
+    "bioguideId": "R000618",
+    "name": "Ricketts, Pete",
+    "state": "Nebraska",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Sponsor of 6 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-sres-760",
+        "title": "A resolution recognizing the United States-Philippines alliance on the 80th anniversary of diplomatic relations, the 75th anniversary of the Mutual Defense Treaty between the United States of America and the Republic of the Philippines, and the 10th anniversary of the landmark arbitral award upholding Manila's sovereignty against escalating aggression and lawfare by the People's Republic of China in the South China Sea.",
+        "introduced": "2026-06-08",
+        "latest_action_date": "2026-06-08",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S2667-2668)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/760"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-sres-547",
+        "title": "A resolution expressing unwavering support for the United States-Japan alliance in response to political, economic and military pressure by the People's Republic of China.",
+        "introduced": "2025-12-17",
+        "latest_action_date": "2025-12-17",
+        "latest_action": "Referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/547"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-sres-409",
+        "title": "A resolution recognizing the 74th anniversary of the signing of the Mutual Defense Treaty between the United States and the Philippines and the strong bilateral security alliance between our two nations in the wake of escalating aggression and political lawfare by the People's Republic of China in the South China Sea.",
+        "introduced": "2025-09-18",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 248.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/409"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2722",
+        "title": "Taiwan Energy Security and Anti-Embargo Act of 2026",
+        "introduced": "2025-09-04",
+        "latest_action_date": "2026-02-10",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 325.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2722"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2048",
+        "title": "PRC Military and Human Rights Capital Markets Sanctions Act of 2025",
+        "introduced": "2025-06-12",
+        "latest_action_date": "2025-06-12",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2048"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2046",
+        "title": "No China in Index Funds Act",
+        "introduced": "2025-06-12",
+        "latest_action_date": "2025-06-12",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2046"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4702",
+        "title": "China Subsidy Response and Export Competitiveness Act of 2026",
+        "introduced": "2026-06-08",
+        "latest_action_date": "2026-06-08",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4702"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-728",
+        "title": "A resolution expressing the sense of the Senate that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Jimmy Lai, Dr. Gulshan Abbas, and Ekpar Asat detained by the People's Republic of China during future engagements with Chinese President Xi Jingping.",
+        "introduced": "2026-05-13",
+        "latest_action_date": "2026-05-13",
+        "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S2283; text: CR S2282)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/728"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-716",
+        "title": "A resolution expressing the sense of the Senate regarding critical elements of the United States policy towards the People's Republic of China.",
+        "introduced": "2026-04-30",
+        "latest_action_date": "2026-04-30",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S2178-2179)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/716"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-677",
+        "title": "A resolution expressing the sense of the Senate that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+        "introduced": "2026-04-16",
+        "latest_action_date": "2026-04-16",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S1826)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/677"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-657",
+        "title": "A resolution commending Taiwan on the 30th anniversary of its first direct presidential election in 1996, and expressing support for Taiwan in the preservation of its democratic institutions.",
+        "introduced": "2026-03-23",
+        "latest_action_date": "2026-03-23",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S1545-1546)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/657"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4065",
+        "title": "STAND with Taiwan Act of 2026",
+        "introduced": "2026-03-11",
+        "latest_action_date": "2026-03-11",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4065"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-733",
+        "title": "Taiwan Travel and Tourism Coordination Act",
+        "introduced": "2026-02-24",
+        "latest_action_date": "2025-02-25",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/733"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3056",
+        "title": "Combatting the Persecution of Religious Groups in China Act",
+        "introduced": "2025-11-03",
+        "latest_action_date": "2025-10-27",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3056"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2960",
+        "title": "Deter PRC Aggression Against Taiwan Act",
+        "introduced": "2025-10-16",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 245.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2960"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2684",
+        "title": "United States - Taiwan Partnership in the Americas Act",
+        "introduced": "2025-09-02",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 242.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2684"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2362",
+        "title": "Ending Lending to China Act of 2025",
+        "introduced": "2025-07-21",
+        "latest_action_date": "2025-07-21",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations. (text: CR S4506)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2362"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1900",
+        "title": "Taiwan Non-Discrimination Act of 2025",
+        "introduced": "2025-06-23",
+        "latest_action_date": "2025-06-18",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 100.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1900"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-283",
+        "title": "A resolution commemorating the 90th birthday of His Holiness the 14th Dalai Lama on July 6, 2025, as \"A Day of Compassion\" and expressing support for the human rights and distinct religious, cultural, linguistic, and historical identity of the Tibetan people.",
+        "introduced": "2025-06-17",
+        "latest_action_date": "2025-07-14",
+        "latest_action": "Resolution agreed to in Senate with an amendment and with a preamble by Unanimous Consent. (text: CR S4342-4343)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/283"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-821",
+        "title": "Taiwan Assurance Implementation Act",
+        "introduced": "2025-05-12",
+        "latest_action_date": "2025-04-28",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 52.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/821"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1711",
+        "title": "STOP China Act",
+        "introduced": "2025-05-12",
+        "latest_action_date": "2025-05-12",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1711"
+      }
+    ],
+    "n_legislation": 21
+  },
+  {
+    "bioguideId": "M001243",
+    "name": "McCormick, David",
+    "state": "Pennsylvania",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Sponsor of 7 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-5548",
+        "title": "Securing National Security Systems from Chinese Optical Transceivers Act of 2026",
+        "introduced": "2026-09-24",
+        "latest_action_date": "2026-09-24",
+        "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5548"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3447",
+        "title": "Fortifying United States Markets Against PRC Military Escalation Act of 2025",
+        "introduced": "2025-12-11",
+        "latest_action_date": "2025-12-11",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3447"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3405",
+        "title": "PRC Financial Intermediary Review Act",
+        "introduced": "2025-12-09",
+        "latest_action_date": "2025-12-09",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3405"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2861",
+        "title": "Protecting the USMCA from Harmful Chinese Investment Act",
+        "introduced": "2025-09-18",
+        "latest_action_date": "2025-09-18",
+        "latest_action": "Read twice and referred to the Committee on Finance.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2861"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2552",
+        "title": "PRC Broker-Dealers and Investment Advisers Moratorium Act",
+        "introduced": "2025-07-30",
+        "latest_action_date": "2025-07-30",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2552"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2146",
+        "title": "China Exchange Rate Transparency Act of 2025",
+        "introduced": "2025-06-24",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 236.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2146"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1900",
+        "title": "Taiwan Non-Discrimination Act of 2025",
+        "introduced": "2025-05-22",
+        "latest_action_date": "2025-06-18",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 100.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1900"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-86",
+        "title": "A resolution expressing the sense of the Senate regarding United Nations General Assembly Resolution 2758 (XXVI) and the harmful conflation of China's \"One China Principle\" and the United States'\"One China Policy\".",
+        "introduced": "2026-08-04",
+        "latest_action_date": "2025-04-28",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 56.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/86"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2048",
+        "title": "PRC Military and Human Rights Capital Markets Sanctions Act of 2025",
+        "introduced": "2026-06-04",
+        "latest_action_date": "2025-06-12",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2048"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-680",
+        "title": "Ending China's Unfair Advantage Act of 2025",
+        "introduced": "2026-05-18",
+        "latest_action_date": "2025-02-20",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations. (text: CR S1130-1131)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/680"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2684",
+        "title": "United States - Taiwan Partnership in the Americas Act",
+        "introduced": "2026-05-18",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 242.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2684"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3056",
+        "title": "Combatting the Persecution of Religious Groups in China Act",
+        "introduced": "2026-05-18",
+        "latest_action_date": "2025-10-27",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3056"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1772",
+        "title": "Confronting CCP Human Rights Abusers Act",
+        "introduced": "2026-05-14",
+        "latest_action_date": "2025-05-15",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1772"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-1694",
+        "title": "DHS Restrictions on Confucius Institutes and Chinese Entities of Concern Act",
+        "introduced": "2026-05-14",
+        "latest_action_date": "2025-05-08",
+        "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1694"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3640",
+        "title": "Divesting from Communist China’s Military Act of 2026",
+        "introduced": "2026-05-14",
+        "latest_action_date": "2026-01-14",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3640"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-716",
+        "title": "A resolution expressing the sense of the Senate regarding critical elements of the United States policy towards the People's Republic of China.",
+        "introduced": "2026-04-30",
+        "latest_action_date": "2026-04-30",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S2178-2179)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/716"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4065",
+        "title": "STAND with Taiwan Act of 2026",
+        "introduced": "2026-03-11",
+        "latest_action_date": "2026-03-11",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4065"
+      }
+    ],
+    "n_legislation": 17
+  },
+  {
+    "bioguideId": "S000522",
+    "name": "Smith, Christopher H.",
+    "state": "New Jersey",
+    "partyName": "Republican",
+    "chamber": "House",
+    "note": "Sponsor of 11 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-hres-1259",
+        "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People’s Republic of China during future engagements with Chinese President Xi Jinping.",
+        "introduced": "2026-05-07",
+        "latest_action_date": "2026-05-13",
+        "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1259"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-10406",
+        "title": "Jimmy Lai Hong Kong Political Prisoner Accountability Act of 2026",
+        "introduced": "2026-09-16",
+        "latest_action_date": "2026-09-16",
+        "latest_action": "Referred to the Committee on the Judiciary, and in addition to the Committees on Foreign Affairs, Financial Services, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10406"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-10346",
+        "title": "Stop China’s Exploitation of Congolese Children and Adult Forced Labor through Cobalt Mining Act",
+        "introduced": "2026-09-10",
+        "latest_action_date": "2026-09-16",
+        "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 32 - 8.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10346"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-10176",
+        "title": "No PRC Seafood in Congress Act",
+        "introduced": "2026-08-27",
+        "latest_action_date": "2026-08-27",
+        "latest_action": "Referred to the House Committee on House Administration.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/10176"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hres-1400",
+        "title": "Condemning the People's Republic of China's Law on the Promotion of Ethnic Unity and Progress and the Chinese Communist Party's campaign of forced assimilation against ethnic and religious minorities.",
+        "introduced": "2026-06-30",
+        "latest_action_date": "2026-06-30",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1400"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-9085",
+        "title": "Tibet Atrocities Determination Act",
+        "introduced": "2026-06-02",
+        "latest_action_date": "2026-06-02",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9085"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-5491",
+        "title": "Nelson Wells Jr. and Dawn Michelle Hunt Unjustly Detained in Communist China Act",
+        "introduced": "2025-09-18",
+        "latest_action_date": "2025-09-18",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/5491"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hres-689",
+        "title": "Expressing the opposition of the House of Representatives to the Chinese Communist Party's \"stolen valor\" historical revisionism with regards to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in the Indo-Pacific.",
+        "introduced": "2025-09-10",
+        "latest_action_date": "2025-09-10",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/689"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-4830",
+        "title": "Uyghur Genocide Accountability and Sanctions Act of 2025",
+        "introduced": "2025-08-01",
+        "latest_action_date": "2025-08-01",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Financial Services, Ways and Means, Oversight and Government Reform, House Administration, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/4830"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-2661",
+        "title": "Hong Kong Economic and Trade Office (HKETO) Certification Act",
+        "introduced": "2025-04-07",
+        "latest_action_date": "2025-04-07",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2661"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-1504",
+        "title": "China Trade Relations Act of 2025",
+        "introduced": "2025-02-21",
+        "latest_action_date": "2025-02-21",
+        "latest_action": "Referred to the Committee on Ways and Means, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1504"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-930",
+        "title": "Commemorating the 78th birthday of Jimmy Lai on December 8, 2025, as \"Jimmy Lai Day\", for his role in advocating for free press, religious freedom, and democracy in Hong Kong, and calling on the People's Republic of China and Hong Kong authorities to release Jimmy Lai and all other Hong Kong prodemocracy advocates from prison.",
+        "introduced": "2025-12-04",
+        "latest_action_date": "2025-12-04",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/930"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-515",
+        "title": "Commemorating the 90th birthday of His Holiness the Dalai Lama on July 6, 2025, as \"A Day of Compassion\", and expressing support for the human rights, religious freedom, and cultural and linguistic protection of the Tibetan people.",
+        "introduced": "2025-10-06",
+        "latest_action_date": "2026-01-21",
+        "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 46 - 1.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/515"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-2806",
+        "title": "Protecting America’s Strategic Petroleum Reserve from China Act",
+        "introduced": "2025-04-09",
+        "latest_action_date": "2025-04-09",
+        "latest_action": "Referred to the House Committee on Energy and Commerce.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2806"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hconres-8",
+        "title": "Expressing the sense of Congress that the United States should resume normal diplomatic relations with Taiwan, negotiate a bilateral free trade agreement with Taiwan, and support Taiwans membership in international organizations.",
+        "introduced": "2025-02-06",
+        "latest_action_date": "2025-02-06",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/8"
+      }
+    ],
+    "n_legislation": 15
+  },
+  {
+    "bioguideId": "K000397",
+    "name": "Kim, Young",
+    "state": "California",
+    "partyName": "Republican",
+    "chamber": "House",
+    "note": "Sponsor of 8 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-hr-8693",
+        "title": "Deter PRC Aggression Against Taiwan Act",
+        "introduced": "2026-05-07",
+        "latest_action_date": "2026-05-07",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8693"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hres-971",
+        "title": "Condemning the coercive actions of the People's Republic of China against Japan in response to statements regarding Taiwan and reaffirming the United States commitment to its allies in the Indo-Pacific region.",
+        "introduced": "2025-12-19",
+        "latest_action_date": "2026-03-26",
+        "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 45 - 0.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/971"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-2635",
+        "title": "Uyghur Policy Act of 2025",
+        "introduced": "2025-04-03",
+        "latest_action_date": "2025-09-03",
+        "latest_action": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2635"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-2370",
+        "title": "Taiwan Travel and Tourism Coordination Act",
+        "introduced": "2025-03-26",
+        "latest_action_date": "2025-03-26",
+        "latest_action": "Referred to the Subcommittee on Transportation and Maritime Security.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2370"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-1615",
+        "title": "Strengthening Exports Against China Act",
+        "introduced": "2025-02-26",
+        "latest_action_date": "2025-02-26",
+        "latest_action": "Referred to the House Committee on Financial Services.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1615"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hres-148",
+        "title": "Expressing the sense of the House of Representatives regarding United Nations General Assembly Resolution 2758 (XXVI) and the harmful conflation of China's \"One China Principle\" and the United States \"One China Policy\".",
+        "introduced": "2025-02-21",
+        "latest_action_date": "2025-02-21",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/148"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-910",
+        "title": "Taiwan Non-Discrimination Act of 2025",
+        "introduced": "2025-02-04",
+        "latest_action_date": "2025-06-24",
+        "latest_action": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 103.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/910"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-733",
+        "title": "To provide for a review of sanctions with respect to Hong Kong.",
+        "introduced": "2025-01-24",
+        "latest_action_date": "2025-01-24",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/733"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-1280",
+        "title": "Supporting the designation the week of May 10 through May 16, 2026, as \"Taiwanese American Heritage Week\".",
+        "introduced": "2026-05-13",
+        "latest_action_date": "2026-05-13",
+        "latest_action": "Referred to the House Committee on Oversight and Government Reform.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1280"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-1259",
+        "title": "Expressing the sense of the House of Representatives that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People’s Republic of China during future engagements with Chinese President Xi Jinping.",
+        "introduced": "2026-05-12",
+        "latest_action_date": "2026-05-13",
+        "latest_action": "Motion to reconsider laid on the table Agreed to without objection.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1259"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-1278",
+        "title": "Reaffirming congressional support for the Taiwan Relations Act and longstanding bipartisan Taiwan policy.",
+        "introduced": "2026-05-12",
+        "latest_action_date": "2026-05-12",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1278"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-8621",
+        "title": "China-Africa Mining Transparency Act",
+        "introduced": "2026-04-30",
+        "latest_action_date": "2026-04-30",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8621"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-1549",
+        "title": "Expressing the sense of the House of Representatives that the People's Republic of China has engaged in the arbitrary or wrongful detention of American academics and has otherwise harmed the prospects for scientific collaboration and people-to-people exchanges between the United States and the People's Republic of China.",
+        "introduced": "2026-09-16",
+        "latest_action_date": "2026-09-16",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/1549"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hres-930",
+        "title": "Commemorating the 78th birthday of Jimmy Lai on December 8, 2025, as \"Jimmy Lai Day\", for his role in advocating for free press, religious freedom, and democracy in Hong Kong, and calling on the People's Republic of China and Hong Kong authorities to release Jimmy Lai and all other Hong Kong prodemocracy advocates from prison.",
+        "introduced": "2025-12-04",
+        "latest_action_date": "2025-12-04",
+        "latest_action": "Referred to the House Committee on Foreign Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-resolution/930"
+      }
+    ],
+    "n_legislation": 14
+  },
+  {
+    "bioguideId": "C001056",
+    "name": "Cornyn, John",
+    "state": "Texas",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Sponsor of 7 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-5024",
+        "title": "Stop PRC Economic Espionage Act of 2026",
+        "introduced": "2026-07-16",
+        "latest_action_date": "2026-07-16",
+        "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5024"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-4723",
+        "title": "Eliminate PRC Organized Crime Act",
+        "introduced": "2026-06-09",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 518.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4723"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3148",
+        "title": "END Illicit Chinese Tobacco Act",
+        "introduced": "2025-11-06",
+        "latest_action_date": "2025-11-06",
+        "latest_action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3148"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1711",
+        "title": "STOP China Act",
+        "introduced": "2025-05-12",
+        "latest_action_date": "2025-05-12",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1711"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1625",
+        "title": "SHIELD Against CCP Act",
+        "introduced": "2025-05-06",
+        "latest_action_date": "2025-05-06",
+        "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1625"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-5548",
+        "title": "Securing National Security Systems from Chinese Optical Transceivers Act of 2026",
+        "introduced": "2026-09-24",
+        "latest_action_date": "2026-09-24",
+        "latest_action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5548"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4065",
+        "title": "STAND with Taiwan Act of 2026",
+        "introduced": "2026-03-11",
+        "latest_action_date": "2026-03-11",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4065"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2960",
+        "title": "Deter PRC Aggression Against Taiwan Act",
+        "introduced": "2025-11-03",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 245.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2960"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-409",
+        "title": "A resolution recognizing the 74th anniversary of the signing of the Mutual Defense Treaty between the United States and the Philippines and the strong bilateral security alliance between our two nations in the wake of escalating aggression and political lawfare by the People's Republic of China in the South China Sea.",
+        "introduced": "2025-09-18",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 248.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/409"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2657",
+        "title": "STOP China and Russia Act of 2025",
+        "introduced": "2025-08-01",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 241.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2657"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2502",
+        "title": "Preventing the Forced Return of Uyghurs Act of 2025",
+        "introduced": "2025-07-29",
+        "latest_action_date": "2025-07-29",
+        "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2502"
+      }
+    ],
+    "n_legislation": 11
+  },
+  {
+    "bioguideId": "S001198",
+    "name": "Sullivan, Dan",
+    "state": "Alaska",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Sponsor of 6 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-5479",
+        "title": "No Chinese Seafood in Congress Act",
+        "introduced": "2026-09-23",
+        "latest_action_date": "2026-09-23",
+        "latest_action": "Read twice and referred to the Committee on Rules and Administration.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5479"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-5404",
+        "title": "Jimmy Lai Hong Kong Political Prisoner Accountability Act of 2026",
+        "introduced": "2026-09-16",
+        "latest_action_date": "2026-09-16",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5404"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-4065",
+        "title": "STAND with Taiwan Act of 2026",
+        "introduced": "2026-03-11",
+        "latest_action_date": "2026-03-11",
+        "latest_action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4065"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-sres-523",
+        "title": "A resolution expressing the opposition of the Senate to the Chinese Communist Party's \"stolen valor\" historical revisionism with regard to Allied Victory in Asia, commemorating the contributions made by the Republic of China to Allied Victory, and acknowledging the postwar contributions of the Government of Japan to peace and stability in Asia.",
+        "introduced": "2025-12-02",
+        "latest_action_date": "2025-12-02",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S8452-8453)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/523"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2560",
+        "title": "Uyghur Genocide Accountability and Sanctions Act of 2025",
+        "introduced": "2025-07-30",
+        "latest_action_date": "2025-07-30",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2560"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-1755",
+        "title": "Hong Kong Judicial Sanctions Act",
+        "introduced": "2025-05-14",
+        "latest_action_date": "2025-05-14",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1755"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3655",
+        "title": "Hong Kong Economic and Trade Office (HKETO) Certification Act",
+        "introduced": "2026-01-15",
+        "latest_action_date": "2026-01-15",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3655"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-463",
+        "title": "A resolution expressing condemnation of the Chinese Communist Party's persecution of religious minority groups, including Christians, Muslims, and Buddhists and the detention of Pastor \"Ezra\" Jin Mingri and leaders of the Zion Church, and reaffirming the United States' global commitment to promote religious freedom and tolerance.",
+        "introduced": "2025-11-18",
+        "latest_action_date": "2025-11-07",
+        "latest_action": "Resolution agreed to in Senate with an amendment and an amended preamble by Voice Vote. (text of amendment in the nature of a substitute: CR S7976)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/463"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3056",
+        "title": "Combatting the Persecution of Religious Groups in China Act",
+        "introduced": "2025-10-27",
+        "latest_action_date": "2025-10-27",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3056"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-86",
+        "title": "A resolution expressing the sense of the Senate regarding United Nations General Assembly Resolution 2758 (XXVI) and the harmful conflation of China's \"One China Principle\" and the United States'\"One China Policy\".",
+        "introduced": "2025-09-29",
+        "latest_action_date": "2025-04-28",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 56.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/86"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-2669",
+        "title": "A bill to require the Secretary of Defense to develop and implement a strategy to strengthen multilateral deterrence in the Indo-Pacific region.",
+        "introduced": "2025-08-01",
+        "latest_action_date": "2025-08-01",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2669"
+      }
+    ],
+    "n_legislation": 11
+  },
+  {
+    "bioguideId": "M001176",
+    "name": "Merkley, Jeff",
+    "state": "Oregon",
+    "partyName": "Democratic",
+    "chamber": "Senate",
+    "note": "Sponsor of 9 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-s-5606",
+        "title": "Hong Konger Promise of Refuge Act",
+        "introduced": "2026-09-30",
+        "latest_action_date": "2026-09-30",
+        "latest_action": "Read twice and referred to the Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5606"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-5362",
+        "title": "Assuring the Future of Tibet Act of 2026",
+        "introduced": "2026-08-07",
+        "latest_action_date": "2026-08-07",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5362"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-4259",
+        "title": "Blue Skies for Taiwan Act of 2026",
+        "introduced": "2026-03-26",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 507.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4259"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-3655",
+        "title": "Hong Kong Economic and Trade Office (HKETO) Certification Act",
+        "introduced": "2026-01-15",
+        "latest_action_date": "2026-01-15",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3655"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-s-2684",
+        "title": "United States - Taiwan Partnership in the Americas Act",
+        "introduced": "2025-09-02",
+        "latest_action_date": "2025-10-30",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 242.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2684"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-5404",
+        "title": "Jimmy Lai Hong Kong Political Prisoner Accountability Act of 2026",
+        "introduced": "2026-09-16",
+        "latest_action_date": "2026-09-16",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5404"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-791",
+        "title": "A resolution condemning the People's Republic of China's Ethnic Unity and Progress Law, concerned with its implications on the rights and freedoms, as well as survival of the identity, of Tibetans, Uyghurs, Mongolians, and other affected communities, and calling on the Government of the People's Republic of China to end its abuses and campaigns of transnational repression that undermine United States sovereignty and threaten the safety and freedoms of people in the United States.",
+        "introduced": "2026-06-24",
+        "latest_action_date": "2026-06-24",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S3217)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/791"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-728",
+        "title": "A resolution expressing the sense of the Senate that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Jimmy Lai, Dr. Gulshan Abbas, and Ekpar Asat detained by the People's Republic of China during future engagements with Chinese President Xi Jingping.",
+        "introduced": "2026-05-13",
+        "latest_action_date": "2026-05-13",
+        "latest_action": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S2283; text: CR S2282)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/728"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4432",
+        "title": "Tibet Atrocities Determination Act",
+        "introduced": "2026-04-29",
+        "latest_action_date": "2026-04-29",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4432"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-677",
+        "title": "A resolution expressing the sense of the Senate that the President should prioritize securing the release of Pastor Jin Mingri, Pastor Gao Quanfu and his wife Pang Yu, Dr. Gulshan Abbas, and Jimmy Lai detained by the People's Republic of China during future engagements with Chinese President Xi Jinping.",
+        "introduced": "2026-04-16",
+        "latest_action_date": "2026-04-16",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S1826)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/677"
+      }
+    ],
+    "n_legislation": 10
+  },
+  {
+    "bioguideId": "P000605",
+    "name": "Perry, Scott",
+    "state": "Pennsylvania",
+    "partyName": "Republican",
+    "chamber": "House",
+    "note": "Sponsor of 5 China-related bill(s)",
+    "watchlist": false,
+    "legislation": [
+      {
+        "role": "Sponsor",
+        "id": "119-hr-8760",
+        "title": "Designating the Chinese Communist Party as a Transnational Organized Crime Group Act",
+        "introduced": "2026-05-12",
+        "latest_action_date": "2026-05-12",
+        "latest_action": "Referred to the House Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8760"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-9713",
+        "title": "No More Debt Relief to China Act",
+        "introduced": "2026-07-15",
+        "latest_action_date": "2026-07-15",
+        "latest_action": "Referred to the House Committee on Financial Services.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9713"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-9687",
+        "title": "Blocking CCP Spy Tech Act of 2026",
+        "introduced": "2026-07-14",
+        "latest_action_date": "2026-07-14",
+        "latest_action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9687"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-7075",
+        "title": "Divesting from Communist China’s Military Act of 2026",
+        "introduced": "2026-01-14",
+        "latest_action_date": "2026-01-14",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/7075"
+      },
+      {
+        "role": "Sponsor",
+        "id": "119-hr-3563",
+        "title": "Taiwan PLUS Act",
+        "introduced": "2025-05-21",
+        "latest_action_date": "2026-05-13",
+        "latest_action": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 45 - 0.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/3563"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-2147",
+        "title": "Stop CCP VISAs Act of 2025",
+        "introduced": "2025-03-14",
+        "latest_action_date": "2025-03-14",
+        "latest_action": "Referred to the House Committee on the Judiciary.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/2147"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hconres-8",
+        "title": "Expressing the sense of Congress that the United States should resume normal diplomatic relations with Taiwan, negotiate a bilateral free trade agreement with Taiwan, and support Taiwans membership in international organizations.",
+        "introduced": "2025-02-06",
+        "latest_action_date": "2025-02-06",
+        "latest_action": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/8"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-hr-1081",
+        "title": "Preventing SBA Assistance from Going to China Act",
+        "introduced": "2025-02-06",
+        "latest_action_date": "2025-02-06",
+        "latest_action": "Referred to the House Committee on Small Business.",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/1081"
+      }
+    ],
+    "n_legislation": 8
   }
 ]
