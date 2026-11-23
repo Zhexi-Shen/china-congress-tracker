@@ -51,6 +51,12 @@ meetings <- read_json("data/meetings.json")
 members <- read_json("data/members.json")
 meta <- read_json("data/meta.json")
 
+# List bills newest-first regardless of their order in bills.json.
+if (length(bills) > 0) {
+  d <- vapply(bills, function(b) safe(b$latest_action_date), character(1))
+  bills <- bills[order(as.Date(d), decreasing = TRUE, na.last = TRUE)]
+}
+
 count <- function(x) if (is.null(x)) 0L else length(x)
 ```
 
