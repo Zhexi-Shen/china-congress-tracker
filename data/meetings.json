@@ -1,14 +1,14 @@
 [
   {
-    "id": "338860",
+    "id": "338900",
     "congress": "119",
     "chamber": "Senate",
-    "date": "2026-12-01T15:00:00Z",
+    "date": "2026-12-03T15:00:00Z",
     "type": "Open Hearing",
     "status": "Scheduled",
-    "title": "Hearings to examine the nominations of Peter A. Feldman, of the District of Columbia, to be a Commissioner of the Consumer Product Safety Commission, Christopher Mufarrige, of Texas, to be a Federal Trade Commissioner, and Loren Smith, Jr., of Virginia, to be an Assistant Secretary of Transportation.",
-    "committees": "Senate Commerce, Science, and Transportation",
-    "url": "https://www.congress.gov/event/119th-Congress/senate-event/338860"
+    "title": "Oversight hearings to examine United States export controls.",
+    "committees": "Senate Banking, Housing, and Urban Affairs",
+    "url": "https://www.congress.gov/event/119th-Congress/senate-event/338900"
   },
   {
     "id": "119593",
@@ -19,7 +19,18 @@
     "status": "Rescheduled",
     "title": "Outproducing the CCP: Restoring American Manufacturing",
     "committees": null,
-    "url": "https://www.congress.gov/event/119th-congress/house-event/119593"
+    "url": "https://www.congress.gov/event/119th-Congress/house-event/119593"
+  },
+  {
+    "id": "338860",
+    "congress": "119",
+    "chamber": "Senate",
+    "date": "2026-12-01T15:00:00Z",
+    "type": "Open Hearing",
+    "status": "Scheduled",
+    "title": "Hearings to examine the nominations of Peter A. Feldman, of the District of Columbia, to be a Commissioner of the Consumer Product Safety Commission, Christopher Mufarrige, of Texas, to be a Federal Trade Commissioner, and Loren Smith, Jr., of Virginia, to be an Assistant Secretary of Transportation.",
+    "committees": "Senate Commerce, Science, and Transportation",
+    "url": "https://www.congress.gov/event/119th-Congress/senate-event/338860"
   },
   {
     "id": "119605",
