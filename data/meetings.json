@@ -1,5 +1,16 @@
 [
   {
+    "id": "119617",
+    "congress": "119",
+    "chamber": "House",
+    "date": "2026-12-01T19:00:00Z",
+    "type": "Hearing",
+    "status": "Scheduled",
+    "title": "\"Beyond the Content: Small Businesses in America's Creator Economy.\"",
+    "committees": "House Small Business Subcommittee on Economic Growth, Tax, and Capital Access",
+    "url": "https://www.congress.gov/event/119th-congress/house-event/119617"
+  },
+  {
     "id": "338900",
     "congress": "119",
     "chamber": "Senate",
