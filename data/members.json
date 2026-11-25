@@ -300,6 +300,117 @@
     "n_legislation": 32
   },
   {
+    "bioguideId": "Y000064",
+    "name": "Young, Todd",
+    "state": "Indiana",
+    "partyName": "Republican",
+    "chamber": "Senate",
+    "note": "Foreign Relations / China-focused",
+    "watchlist": true,
+    "legislation": [
+      {
+        "role": "Cosponsor",
+        "id": "119-s-5370",
+        "title": "Combatting the Persecution of Religious Groups in the People’s Republic of China Act",
+        "introduced": "2026-09-15",
+        "latest_action_date": "2026-08-07",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5370"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-5362",
+        "title": "Assuring the Future of Tibet Act of 2026",
+        "introduced": "2026-08-07",
+        "latest_action_date": "2026-08-07",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5362"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3208",
+        "title": "Six Assurances to Taiwan Act",
+        "introduced": "2026-07-22",
+        "latest_action_date": "2025-11-19",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3208"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-4586",
+        "title": "Blocking CCP Spy Tech Act of 2026",
+        "introduced": "2026-06-02",
+        "latest_action_date": "2026-05-20",
+        "latest_action": "Read twice and referred to the Select Committee on Intelligence.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4586"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-716",
+        "title": "A resolution expressing the sense of the Senate regarding critical elements of the United States policy towards the People's Republic of China.",
+        "introduced": "2026-04-30",
+        "latest_action_date": "2026-04-30",
+        "latest_action": "Referred to the Committee on Foreign Relations. (text: CR S2178-2179)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/716"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3056",
+        "title": "Combatting the Persecution of Religious Groups in China Act",
+        "introduced": "2025-10-27",
+        "latest_action_date": "2025-10-27",
+        "latest_action": "Read twice and referred to the Committee on Foreign Relations.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3056"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-3018",
+        "title": "A bill to permit visiting dignitaries and service members from Taiwan to display the flag of the Republic of China.",
+        "introduced": "2025-10-20",
+        "latest_action_date": "2026-07-27",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 499.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3018"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-s-199",
+        "title": "A bill to amend the Internal Revenue Code of 1986 to provide special rules for the taxation of certain residents of Taiwan with income from sources within the United States.",
+        "introduced": "2025-07-15",
+        "latest_action_date": "2025-01-23",
+        "latest_action": "Read twice and referred to the Committee on Finance.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/199"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-283",
+        "title": "A resolution commemorating the 90th birthday of His Holiness the 14th Dalai Lama on July 6, 2025, as \"A Day of Compassion\" and expressing support for the human rights and distinct religious, cultural, linguistic, and historical identity of the Tibetan people.",
+        "introduced": "2025-06-17",
+        "latest_action_date": "2025-07-14",
+        "latest_action": "Resolution agreed to in Senate with an amendment and with a preamble by Unanimous Consent. (text: CR S4342-4343)",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/283"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-98",
+        "title": "A resolution condemning Beijing's destruction of Hong Kong's democracy and rule of law.",
+        "introduced": "2025-04-29",
+        "latest_action_date": "2025-04-28",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 57.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/98"
+      },
+      {
+        "role": "Cosponsor",
+        "id": "119-sres-86",
+        "title": "A resolution expressing the sense of the Senate regarding United Nations General Assembly Resolution 2758 (XXVI) and the harmful conflation of China's \"One China Principle\" and the United States'\"One China Policy\".",
+        "introduced": "2025-03-11",
+        "latest_action_date": "2025-04-28",
+        "latest_action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 56.",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-resolution/86"
+      }
+    ],
+    "n_legislation": 11
+  },
+  {
     "bioguideId": "B001282",
     "name": "Barr, Andy",
     "state": "Kentucky",
